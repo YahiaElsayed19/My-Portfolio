@@ -1,0 +1,19 @@
+.navigation ul li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    border-bottom: 5px solid red;
+}
+
+@media (max-width:990px) {
+    .navigation {
+        display: none;
+    }
+}

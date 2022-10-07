@@ -1,0 +1,24 @@
+.mobile-nav {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-nav .icon {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+
+.mobile-nav ul li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+}
+
+.mobile-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-nav ul li a:hover {
+    border-bottom: 5px solid red;
+}
