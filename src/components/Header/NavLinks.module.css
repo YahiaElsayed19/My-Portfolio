@@ -12,7 +12,7 @@
     border-bottom: 5px solid red;
 }
 
-@media (max-width:990px) {
+@media (max-width:768px) {
     .navigation {
         display: none;
     }
