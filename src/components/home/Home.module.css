@@ -16,10 +16,6 @@
     .wrapper {
         flex-direction: column;
     }
-
-    .tech {
-        flex-direction: row;
-    }
 }
 
 .first-sec {
