@@ -33,9 +33,10 @@
 
 @media (max-width: 992px) {
     .first-sec {
-        align-items:flex-start;
+        align-items: flex-start;
     }
 }
+
 @media (max-width: 768px) {
     .first-sec {
         align-items: center;
@@ -107,10 +108,12 @@ p {
     }
 
 }
+
 @media (max-width: 768px) {
     .tech {
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
     }
 
 }
@@ -130,8 +133,11 @@ p {
     position: relative;
     transform: translateX(50px);
 }
+
 @media (max-width: 992px) {
     .tech img:nth-child(2) {
         transform: translateX(0);
+        width: 50px;
+        height: 50px;
     }
 }
