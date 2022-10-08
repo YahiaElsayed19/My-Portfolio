@@ -112,7 +112,7 @@ p {
 @media (max-width: 768px) {
     .tech {
         flex-direction: column;
-        align-items: center;
+        align-items:flex-start;
         justify-content: center;
     }
 
