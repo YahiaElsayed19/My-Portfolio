@@ -1,0 +1,137 @@
+.home {
+    background-image: url('../../assets/bg.png');
+    background-size: cover;
+}
+
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .tech {
+        flex-direction: row;
+    }
+}
+
+.first-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 40px;
+    margin: 1rem 3rem;
+}
+
+@media (max-width: 992px) {
+    .first-sec {
+        align-items:flex-start;
+    }
+}
+@media (max-width: 768px) {
+    .first-sec {
+        align-items: center;
+    }
+}
+
+.box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    padding: 0.5rem 2rem;
+    width: auto;
+}
+
+.box:first-child {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.box span {
+    font-size: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+p {
+    margin: 0;
+    color: rgb(105, 104, 104);
+}
+
+.box:nth-child(2) p {
+    text-align: right;
+}
+
+.box:last-child {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding: 0.5rem 1rem;
+    }
+}
+
+.image img {
+    height: 84vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem 2rem;
+}
+
+@media (max-width: 992px) {
+    .tech {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+}
+@media (max-width: 768px) {
+    .tech {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
+
+
+.tech img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.tech img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: translateX(50px);
+}
+@media (max-width: 992px) {
+    .tech img:nth-child(2) {
+        transform: translateX(0);
+    }
+}
