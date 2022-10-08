@@ -9,7 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 @media (max-width: 992px) {
@@ -109,14 +109,14 @@ p {
 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .tech {
         flex-direction: column;
         align-items:flex-start;
         justify-content: space-evenly;
     }
 
-}
+} */
 
 
 .tech img {
