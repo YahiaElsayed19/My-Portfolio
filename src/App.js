@@ -1,6 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path='/' element={<Navigate replace to='/home' />} />
-        <Route path='/home' element={<Home />} />
+        <Route path='/home' />
         <Route path='/about' />
         <Route path='/gallery' />
         <Route path='/contact' />
