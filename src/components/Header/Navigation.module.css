@@ -6,6 +6,7 @@ ul {
 @media (max-width: 500px) {
     ul {
         flex: 1;
+        padding-left: 0;
     }
 }
 

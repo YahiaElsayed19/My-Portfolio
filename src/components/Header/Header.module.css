@@ -14,25 +14,25 @@ header {
     align-items: center;
 }
 
-/* Small */
+
 @media (min-width: 768px) {
     .wrapper {
         width: 750px;
     }
 }
 
-/* Medium */
+
 @media (min-width: 992px) {
     .wrapper {
         width: 970px;
     }
 }
 
-/* Large */
+
 @media (min-width: 1200px) {
     .wrapper {
         width: 1170px;
     }
 }
 
-/* end of responsive queries */
+
