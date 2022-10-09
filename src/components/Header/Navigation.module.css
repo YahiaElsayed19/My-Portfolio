@@ -23,7 +23,9 @@ ul li a {
     position: relative;
 }
 
-ul li a:hover {
+ul li a:hover,
+ul li a:active,
+ul li a.active {
     color: #FC3A79ed
 }
 
