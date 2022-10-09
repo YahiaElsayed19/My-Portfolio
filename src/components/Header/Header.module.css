@@ -1,0 +1,38 @@
+header {
+    background-color: white;
+    border-bottom: 1px solid rgba(38, 31, 34, 0.1);
+    height: 96px;
+}
+
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+    }
+}
+
+/* end of responsive queries */
