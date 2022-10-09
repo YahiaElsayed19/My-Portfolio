@@ -1,6 +1,18 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+    ul {
+        flex: 1;
+    }
+}
+
 ul li {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 1rem;
+    list-style: none;
 }
 
 ul li a {
@@ -8,6 +20,10 @@ ul li a {
     color: black;
     font-weight: bold;
     position: relative;
+}
+
+ul li a:hover {
+    color: #FC3A79ed
 }
 
 ul li a:hover:after,

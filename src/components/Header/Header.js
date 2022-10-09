@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Navigation'
-import Mail from './Mail'
+import Mail from './Social'
 import classes from './Header.module.css'
 
 const Header = () => {
