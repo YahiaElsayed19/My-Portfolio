@@ -36,9 +36,30 @@
 .landing-h3 {
     margin-bottom: 0;
     font-size: 32px;
-    font-weight: 200;
+    font-weight: 300;
     background: var(--brand-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.landing-h1 {
+    font-size: 68px;
+    margin: auto;
+    line-height: 1.2;
+}
+
+.landing-p {
+    color: var(--black-75);
+    width: 500px;
+    margin: 30px auto 70px;
+}
+
+.landing-btn {
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    background-image: var(--brand-gradient);
+    cursor: pointer;
 }
