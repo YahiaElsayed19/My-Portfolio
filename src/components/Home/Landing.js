@@ -7,7 +7,7 @@ const Landing = () => {
             <div className={classes["landing-wrapper"]}>
                 <h3 className={classes["landing-h3"]}>Hey, I'm Yahia Elsayed</h3>
                 <h1 className={classes["landing-h1"]}>
-                    React Ddeveloper & React Native Develpoer
+                    React Developer & React Native Develpoer
                 </h1>
                 <p className={classes["landing-p"]}>
                     I help business grow by crafting amazing web experiences. If you're
@@ -17,6 +17,7 @@ const Landing = () => {
                     <button>See my work </button>
                 </a>
             </div>
+
         </div>
     );
 };

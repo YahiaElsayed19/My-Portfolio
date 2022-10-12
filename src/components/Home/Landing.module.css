@@ -1,0 +1,44 @@
+.landing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.landing-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .landing-wrapper {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .landing-wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .landing-wrapper {
+        width: 1170px;
+    }
+}
+
+.landing-h3 {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 200;
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
