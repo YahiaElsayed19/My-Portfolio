@@ -6,7 +6,7 @@
 
 .email {
     text-decoration: none;
-    color: #FC3A79ed;
+    color: var(--accent);
     font-size: 18px;
     font-weight: bold;
     font-style: italic;
@@ -33,7 +33,7 @@
 }
 
 .icon {
-    color:#261F22;
+    color: #261F22;
     margin: 4px;
 }
 
@@ -43,15 +43,15 @@
     }
 
 }
-.linked:hover{
+
+.linked:hover {
     color: #0077b5;
 }
-.twitter:hover{
+
+.twitter:hover {
     color: #1da1f2;
 }
-.git:hover{
+
+.git:hover {
     color: #6e5494;
 }
-
-
-
