@@ -2,6 +2,12 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+@media (max-width: 768px) {
+    .landing {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+}
 
 
 .landing-wrapper {
@@ -51,7 +57,7 @@
 
 .landing-p {
     color: var(--black-75);
-    width: 500px;
+    max-width: 500px;
     margin: 30px auto 70px;
 }
 
@@ -63,3 +69,20 @@
     background-image: var(--brand-gradient);
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+    .landing-h1 {
+        font-size: 48px;
+    }
+}
+
+/* @media (max-width: 412px) {
+    .landing-h1 {
+        font-size: 36px;
+    }
+
+    .landing-p {
+        font-size: 14px;
+    }
+} */
