@@ -4,7 +4,7 @@ import classes from './Navigation.module.css'
 
 const Navigation = () => {
     return (
-        <ul>
+        <ul className={classes['ul-nav']}>
             <li>
                 <NavLink to="/home" className={(navData) => navData.isActive ? `${classes.active}` : ''}>Home</NavLink>
             </li>

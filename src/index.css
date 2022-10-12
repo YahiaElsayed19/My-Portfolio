@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Cairo', sans-serif;
   font-family: 'Roboto', sans-serif;
+  font-family: 'poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +12,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --accent: #FC3A79;
+  --secondry: #FE572E;
+  --light-bg: #F3F2F1;
+  --brand-gradient: linear-gradient(to right, #FE572E, #FF4C80);
+  --black-color: #261F22;
+  --black-75: rgba(38, 31, 34, 0.75);
+  --black-50: rgba(38, 31, 34, 0.5);
+  --black-25:rgba(38, 31, 34, 0.25) ;
+  --black-10:rgba(38, 31, 34, 0.1) ;
+  --black-05: rgba(38, 31, 34, 0.05);
 }

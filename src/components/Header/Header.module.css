@@ -4,7 +4,7 @@ header {
     height: 96px;
 }
 
-.wrapper {
+.header-wrapper {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -16,21 +16,21 @@ header {
 
 
 @media (min-width: 768px) {
-    .wrapper {
+    .header-wrapper {
         width: 750px;
     }
 }
 
 
 @media (min-width: 992px) {
-    .wrapper {
+    .header-wrapper {
         width: 970px;
     }
 }
 
 
 @media (min-width: 1200px) {
-    .wrapper {
+    .header-wrapper {
         width: 1170px;
     }
 }

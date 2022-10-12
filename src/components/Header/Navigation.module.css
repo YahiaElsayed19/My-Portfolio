@@ -1,37 +1,37 @@
-ul {
+.ul-nav {
     display: flex;
     justify-content: space-between;
 }
 
 @media (max-width: 500px) {
-    ul {
+    .ul-nav {
         flex: 1;
         padding-left: 0;
     }
 }
 
-ul li {
+.ul-nav li{
     /* display: inline-block; */
     padding: 1rem;
     list-style: none;
 }
 
-ul li a {
+.ul-nav li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     position: relative;
 }
 
-ul li a:hover,
-ul li a:active,
-ul li a.active {
+.ul-nav li a:hover,
+.ul-nav li a:active,
+.ul-nav li a.active {
     color: #FC3A79ed
 }
 
-ul li a:hover:after,
-ul li a:active:after,
-ul li a.active:after {
+.ul-nav li a:hover:after,
+.ul-nav li a:active:after,
+.ul-nav li a.active:after {
     content: '';
     position: absolute;
     top: 64px;
