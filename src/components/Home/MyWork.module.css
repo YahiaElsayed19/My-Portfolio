@@ -1,0 +1,33 @@
+.my-work {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.my-work__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .my-work__wrapper {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .my-work__wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .my-work__wrapper {
+        width: 1170px;
+    }
+}
