@@ -16,7 +16,6 @@ const Landing = (props) => {
                 </p>
                 <button className={classes["landing-btn"]} onClick={scrollToMyWork}>See my work </button>
             </div>
-
         </div>
     );
 };
