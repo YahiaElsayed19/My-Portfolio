@@ -59,3 +59,7 @@
     color: var(--black-color);
     margin: 10px;
 }
+
+.my-work__icon:hover {
+    color: var(--accent);
+}
