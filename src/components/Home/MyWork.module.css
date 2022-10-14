@@ -31,3 +31,6 @@
         width: 1170px;
     }
 }
+.my-work__wrapper img{
+    max-width: 100%;
+}
