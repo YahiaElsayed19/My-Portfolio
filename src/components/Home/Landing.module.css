@@ -4,8 +4,8 @@
 }
 @media (max-width: 768px) {
     .landing {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         }
 }
 
@@ -73,16 +73,10 @@
 
 @media (max-width: 768px) {
     .landing-h1 {
-        font-size: 48px;
+        font-size: 42px;
+    }
+    .landing-btn {
+        width: 100%;
     }
 }
 
-/* @media (max-width: 412px) {
-    .landing-h1 {
-        font-size: 36px;
-    }
-
-    .landing-p {
-        font-size: 14px;
-    }
-} */
