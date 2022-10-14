@@ -87,9 +87,10 @@ const MyWork = () => {
     ));
 
     return (
-        <div className={classes["my-work"]}>
+        <div className={classes["my-work"]} id="my-work">
             <div className={classes["my-work__wrapper"]}>
                 <h1 className={classes["my-work__h1"]}>My Work</h1>
+                <p className={classes["my-work__p"]}>I specialize in website design and development.</p>
                 {content}
             </div>
         </div>

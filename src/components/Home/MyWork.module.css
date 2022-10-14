@@ -40,13 +40,15 @@
     -webkit-text-fill-color: transparent;
 
 }
-
+.my-work__p{
+    margin-top: -20px;
+}
 .my-work__box {
     margin: 2rem;
     border-bottom: 2px solid var(--black-25);
 }
 
-.my-work__description {
+.my-work__description,.my-work__p{ 
     color: var(--black-75);
 }
 
