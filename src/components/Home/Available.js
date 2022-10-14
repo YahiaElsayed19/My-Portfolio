@@ -14,9 +14,11 @@ const Available = () => {
                 <p className={classes['availble-email']}>
                     yahiaelsayed19@gmail.com
                 </p>
-                <button className={classes['availble-btn']}>
-                    Got a project in mind? Let's talk!
-                </button>
+                <a href='mailto:yahiaelsayed19@gmail.com'>
+                    <button className={classes['availble-btn']}>
+                        Got a project in mind? Let's talk!
+                    </button>
+                </a>
             </div>
         </div>
     )
