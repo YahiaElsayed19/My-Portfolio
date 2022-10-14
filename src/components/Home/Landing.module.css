@@ -62,16 +62,6 @@
     margin: 30px auto 70px;
 }
 
-.landing-btn {
-    padding: 1.2rem 4rem;
-    border: none;
-    border-radius: 16px;
-    color: white;
-    background-image: var(--brand-gradient);
-    cursor: pointer;
-}
-
-
 @media (max-width: 768px) {
     .landing-h3 {
         font-size: 26px;
@@ -85,8 +75,20 @@
         font-size: 14px;
         margin-bottom: 60px;
     }
+}
 
+.landing-btn {
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    background-image: var(--brand-gradient);
+    cursor: pointer;
+}
+
+@media (max-width: 350px) {
     .landing-btn {
         width: 100%;
     }
+
 }
