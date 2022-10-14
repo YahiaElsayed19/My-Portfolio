@@ -72,8 +72,11 @@
 
 
 @media (max-width: 768px) {
+    .landing-h3 {
+        font-size: 26px;
+    }
     .landing-h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
     .landing-btn {
         width: 100%;
