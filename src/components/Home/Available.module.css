@@ -10,7 +10,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .availble-wrapper {
         text-align: center;
     }
@@ -45,6 +45,16 @@
     color: var(--black-75);
     max-width: 400px;
     line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .availble-h3 {
+        margin: auto;
+    }
+
+    .availble-p {
+        margin: auto;
+    }
 }
 
 .availble-email {
