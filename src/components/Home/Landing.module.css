@@ -10,10 +10,9 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .landing {
         padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
@@ -93,7 +92,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .landing-btn {
         width: 100%;
     }
