@@ -2,6 +2,12 @@ import React from "react";
 import classes from "./Landing.module.css";
 
 const Landing = () => {
+    const scrollToMyWork = () => {
+        window.scrollTo({
+            top: '900',
+            behavior: 'smooth',
+        });
+    };
     return (
         <div className={classes.landing}>
             <div className={classes["landing-wrapper"]}>
@@ -14,7 +20,7 @@ const Landing = () => {
                     looking for a developer that likes to get stuff done, let's talk.
                 </p>
                 <a href="#my-work" className={classes["landing-a"]}>
-                    <button className={classes["landing-btn"]}>See my work </button>
+                    <button className={classes["landing-btn"]} onClick={scrollToMyWork}>See my work </button>
                 </a>
             </div>
 
