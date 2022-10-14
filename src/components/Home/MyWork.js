@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import classes from "./MyWork.module.css";
 import template1 from "../../assets/template1.png";
 import template2 from "../../assets/template2.png";
@@ -70,10 +70,10 @@ const BOXES = [
     },
 ];
 
-const MyWork = () => {
+const MyWork = forwardRef((props, ref) => {
 
     const content = BOXES.map((box) => (
-        <div className={classes["my-work__box"]}>
+        <div className={classes["my-work__box"]} key={box.id}>
             <p className={classes["my-work__description"]}>{box.description}</p>
             <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
             <div className={classes["my-work__btn"]}>
@@ -88,7 +88,7 @@ const MyWork = () => {
     ));
 
     return (
-        <div className={classes["my-work"]} id="my-work">
+        <div className={classes["my-work"]} ref={ref} >
             <div className={classes["my-work__wrapper"]}>
                 <h1 className={classes["my-work__h1"]}>My Work</h1>
                 <p className={classes["my-work__p"]}>I specialize in website design and development.</p>
@@ -96,6 +96,6 @@ const MyWork = () => {
             </div>
         </div>
     );
-};
+});
 
 export default MyWork;

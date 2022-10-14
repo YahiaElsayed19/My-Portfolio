@@ -1,13 +1,8 @@
 import React from "react";
 import classes from "./Landing.module.css";
 
-const Landing = () => {
-    const scrollToMyWork = () => {
-        window.scrollTo({
-            top: '900',
-            behavior: 'smooth',
-        });
-    };
+const Landing = (props) => {
+    const scrollToMyWork = props.onScroll;
     return (
         <div className={classes.landing}>
             <div className={classes["landing-wrapper"]}>
