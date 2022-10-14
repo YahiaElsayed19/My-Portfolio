@@ -19,9 +19,7 @@ const Landing = () => {
                     I help business grow by crafting amazing web experiences. If you're
                     looking for a developer that likes to get stuff done, let's talk.
                 </p>
-                <a href="#my-work" className={classes["landing-a"]}>
-                    <button className={classes["landing-btn"]} onClick={scrollToMyWork}>See my work </button>
-                </a>
+                <button className={classes["landing-btn"]} onClick={scrollToMyWork}>See my work </button>
             </div>
 
         </div>
