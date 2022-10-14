@@ -1,6 +1,7 @@
 .my-work {
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: #f6f6f6;
 }
 
 .my-work__wrapper {
@@ -31,6 +32,30 @@
         width: 1170px;
     }
 }
-.my-work__wrapper img{
+
+.my-work__h1 {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.my-work__box {
+    margin: 2rem;
+}
+
+.my-work__description {
+    color: var(--black-75);
+}
+
+.my-work__wrapper .my-work__image {
     max-width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 20px;
+}
+
+.my-work__icon {
+    color: var(--black-color);
+    margin: 10px;
 }

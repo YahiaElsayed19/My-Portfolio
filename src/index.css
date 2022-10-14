@@ -12,6 +12,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background-color: var(--light-bg);
 }
 
 :root {
@@ -22,7 +23,7 @@ code {
   --black-color: #261F22;
   --black-75: rgba(38, 31, 34, 0.75);
   --black-50: rgba(38, 31, 34, 0.5);
-  --black-25:rgba(38, 31, 34, 0.25) ;
-  --black-10:rgba(38, 31, 34, 0.1) ;
+  --black-25: rgba(38, 31, 34, 0.25);
+  --black-10: rgba(38, 31, 34, 0.1);
   --black-05: rgba(38, 31, 34, 0.05);
 }

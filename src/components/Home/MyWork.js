@@ -8,9 +8,8 @@ import quizapp from "../../assets/quizapp.png";
 import todolist from "../../assets/todolist.png";
 import expensetracker from "../../assets/expensetracker.png";
 import foodapp from "../../assets/foodapp.png";
-import { BsGithub } from 'react-icons/bs'
-import { BsFillEyeFill } from 'react-icons/bs'
-
+import { BsGithub } from "react-icons/bs";
+import { BsFillEyeFill } from "react-icons/bs";
 
 const MyWork = () => {
     const BOXES = [
@@ -77,11 +76,11 @@ const MyWork = () => {
             <p className={classes["my-work__description"]}>{box.description}</p>
             <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
             <div className={classes["my-work__btn"]}>
-                <a href={box.github}>
-                    <BsGithub />
+                <a href={box.github} target='_blank'>
+                    <BsGithub className={classes["my-work__icon"]} size="40px" />
                 </a>
-                <a href={box.live}>
-                    <BsFillEyeFill />
+                <a href={box.live} target='_blank'>
+                    <BsFillEyeFill className={classes["my-work__icon"]} size="40px" />
                 </a>
             </div>
         </div>
@@ -90,6 +89,7 @@ const MyWork = () => {
     return (
         <div className={classes["my-work"]}>
             <div className={classes["my-work__wrapper"]}>
+                <h1 className={classes["my-work__h1"]}>My Work</h1>
                 {content}
             </div>
         </div>

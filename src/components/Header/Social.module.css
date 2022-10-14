@@ -33,7 +33,7 @@
 }
 
 .icon {
-    color: #261F22;
+    color: var(--black-color);
     margin: 4px;
 }
 
