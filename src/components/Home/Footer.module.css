@@ -1,0 +1,35 @@
+.footer {
+    border-top: 1px solid var(--black-25);
+}
+
+.footer-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .footer-wrapper {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .footer-wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .my-work__wrapper {
+        width: 1170px;
+    }
+}
+
+.footer-p {
+    color: var(--black-75);
+    text-align: center;
+}
