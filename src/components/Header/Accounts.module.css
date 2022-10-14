@@ -31,3 +31,27 @@
     height: 100%;
     background-color: rgba(38, 31, 34, 0.25);
 }
+
+.icon {
+    color: var(--black-color);
+    margin: 4px;
+}
+
+@media (max-width: 500px) {
+    .icon {
+        display: none;
+    }
+
+}
+
+.linked:hover {
+    color: #0077b5;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.git:hover {
+    color: #6e5494;
+}
