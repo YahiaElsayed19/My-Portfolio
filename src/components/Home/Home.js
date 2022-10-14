@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import Available from './Available'
 import Landing from './Landing'
 import MyWork from './MyWork'
 
@@ -11,6 +12,7 @@ const Home = () => {
         <>
             <Landing onScroll={scrollHandler} />
             <MyWork ref={myWorkRef} />
+            <Available />
         </>
     )
 }

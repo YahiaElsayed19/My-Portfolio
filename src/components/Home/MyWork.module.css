@@ -45,7 +45,6 @@
 }
 .my-work__box {
     margin: 2rem;
-    border-bottom: 2px solid var(--black-25);
 }
 
 .my-work__description,.my-work__p{ 

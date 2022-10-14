@@ -1,0 +1,59 @@
+.availble {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.availble-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+@media (min-width: 768px) {
+    .availble-wrapper {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .availble-wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .availble-wrapper {
+        width: 1170px;
+    }
+}
+
+.availble-h3 {
+    font-size: 24px;
+    width: 400px;
+}
+
+.availble-p {
+    color: var(--black-75);
+    width: 400px;
+    line-height: 1.2;
+}
+
+.availble-email {
+    font-weight: bold;
+    color:var(--accent);
+    font-size: 12px;
+}
+
+.availble-btn {
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    background-image: var(--brand-gradient);
+    cursor: pointer;
+}
