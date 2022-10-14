@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Navigation'
-import Mail from './Social'
+import Accounts from './Accounts'
 import classes from './Header.module.css'
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
         <header>
             <div className={classes['header-wrapper']}>
                 <Navigation />
-                <Mail />
+                <Accounts />
             </div>
         </header>
     )
