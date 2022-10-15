@@ -14,7 +14,7 @@ const Form = () => {
             <input type="text" id='project' placeholder='Enter Project Details'></input>
 
             <label htmlFor='budget'>Your Budget Range</label>
-            <input type="number" id='budget' placeholder='Enter Budget Range'></input>
+            <input type="number" min='10' id='budget' placeholder='Enter Budget Range'></input>
 
             <label htmlFor='timeline'>Your Timeline</label>
             <input type="text" id='timeline' placeholder='Enter Timeline'></input>

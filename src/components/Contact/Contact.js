@@ -2,6 +2,7 @@ import React from 'react'
 import Freelance from './Freelance'
 import Info from './Info'
 import FormSection from './FormSection'
+import ContactFooter from './ContactFooter'
 
 const Contact = () => {
     return (
@@ -9,6 +10,7 @@ const Contact = () => {
             <Freelance />
             <Info />
             <FormSection />
+            <ContactFooter />
         </>
     )
 }
