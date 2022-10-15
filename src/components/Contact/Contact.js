@@ -1,14 +1,14 @@
 import React from 'react'
 import Freelance from './Freelance'
 import Info from './Info'
-import Section from './Section'
+import FormSection from './FormSection'
 
 const Contact = () => {
     return (
         <>
             <Freelance />
             <Info />
-            <Section />
+            <FormSection />
         </>
     )
 }

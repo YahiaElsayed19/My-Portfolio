@@ -10,11 +10,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 450px) {
-    .section-wrapper {
-        text-align: center;
-    }
-}
+
 
 @media (min-width: 768px) {
     .section-wrapper {
