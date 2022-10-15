@@ -8,10 +8,10 @@ const Form = () => {
     const budgetRef = useRef();
     const timelineRef = useRef();
     const [show, setShow] = useState(false)
-    const [sending, setsending] = useState(false)
+    const [sending, setSending] = useState(false)
     const submitHandler = async (e) => {
         e.preventDefault();
-        setsending(true)
+        setSending(true)
         await fetch(
             "https://portfolio-9ff74-default-rtdb.firebaseio.com/jobs.json",
             {
