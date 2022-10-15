@@ -1,17 +1,17 @@
 import React from 'react'
-import classes from './Section.module.css'
-const Section = () => {
+import classes from './Freelance.module.css'
+const Freelance = () => {
     return (
-        <div className={classes.section}>
-            <div className={classes['section-wrapper']}>
-                <h3 className={classes['section-h3']}>
+        <div className={classes.freelance}>
+            <div className={classes['freelance-wrapper']}>
+                <h3 className={classes['freelance-h3']}>
                     I'm currently availble for freelance Work.
                 </h3>
-                <p className={classes['section-p']}>
+                <p className={classes['freelance-p']}>
                     If you're looking for developer that likes to get stuff done,let's talk
                 </p>
                 <a href='mailto:yahiaelsayed19@gmail.com'>
-                    <button className={classes['section-btn']}>
+                    <button className={classes['freelance-btn']}>
                         yahiaelsayed19@gmail.com
                     </button>
                 </a>
@@ -20,4 +20,4 @@ const Section = () => {
     )
 }
 
-export default Section
+export default Freelance

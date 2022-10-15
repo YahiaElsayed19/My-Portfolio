@@ -1,11 +1,11 @@
 import React from 'react'
-import Section from './Section'
+import Freelance from './Freelance'
 import Info from './Info'
 
 const Contact = () => {
     return (
         <>
-            <Section />
+            <Freelance />
             <Info />
         </>
     )
