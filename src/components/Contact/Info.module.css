@@ -1,0 +1,46 @@
+.info {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.info-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .info-wrapper {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .info-wrapper {
+        width: 750px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .info-wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .info-wrapper {
+        width: 1170px;
+    }
+}
+
+.info-question {
+    cursor: pointer;
+}
+
+.info-sign span{
+    color: var(--secondry);
+}
