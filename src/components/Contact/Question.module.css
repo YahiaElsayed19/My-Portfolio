@@ -1,0 +1,29 @@
+.question-wrapper {
+    cursor: pointer;
+}
+
+.info-question span,
+.info-question__active span {
+    color: var(--accent);
+}
+
+.info-question {
+    color: var(--black-50);
+}
+
+.info-question__active {
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+.info-question p,
+.info-question__active p {
+    margin: 0;
+}
+
+.info-answer {
+    margin-top: -18px;
+    margin-left: 9px;
+    color: var(--black-color);
+    font-weight: 400;
+}

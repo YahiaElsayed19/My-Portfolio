@@ -1,34 +1,18 @@
 import React, { useState } from "react";
 import classes from "./Info.module.css";
+import Question from "./Question";
 const Info = () => {
-    const [isOpen1, setIsOpen1] = useState(false);
-    const [isOpen2, setIsOpen2] = useState(false);
-    const [isOpen3, setIsOpen3] = useState(false);
-    const [isOpen4, setIsOpen4] = useState(false);
-    const [isOpen5, setIsOpen5] = useState(false);
 
-    const toggleHandler1 = () => {
-        setIsOpen1(!isOpen1);
-    };
-    const toggleHandler2 = () => {
-        setIsOpen2(!isOpen2);
-    };
-    const toggleHandler3 = () => {
-        setIsOpen3(!isOpen3);
-    };
-    const toggleHandler4 = () => {
-        setIsOpen4(!isOpen4);
-    };
-    const toggleHandler5 = () => {
-        setIsOpen5(!isOpen5);
-    };
+
     return (
         <div className={classes.info}>
             <div className={classes["info-wrapper"]}>
-                <div className={classes["info-question"]} onClick={toggleHandler1}>
-                    {isOpen1 ? <p className={classes["info-sign"]}><span>- </span>What timezone are you in?</p> : <p className={classes["info-sign"]}><span>+ </span>What timezone are you in?</p>}
-                    {isOpen1 && <p className={classes["info-answer"]}>With in 2 months</p>}
-                </div>
+                <h1 className={classes['before-msg']}>Before sending me a message, here are some things you should know:</h1>
+                <Question question="What timezone are you in?" answer="With in 2 months." />
+                <Question question="Do we make a contract?" answer="No, We don't." />
+                <Question question="How much do you charge for a website?" answer="It depends on size and effort not all with same price." />
+                <Question question="Do you charge by the hour?" answer="I do not charge by the hour. I prefer to eliminate the stress of counting the hours. Instead, I charge a flat fee per project, regardless of duration." />
+                <Question question="Are you working with a team?" answer="No, Currently i work alone." />
             </div>
         </div>
     );

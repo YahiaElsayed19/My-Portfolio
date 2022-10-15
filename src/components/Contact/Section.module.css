@@ -4,13 +4,13 @@
 }
 
 .section-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
     .section-wrapper {
         text-align: center;
     }
@@ -51,11 +51,13 @@
 
 @media (max-width: 768px) {
     .section-h3 {
-        margin: auto;
+        text-align: left;
+        width: 100%;
     }
 
     .section-p {
-        margin: auto;
+        text-align: left;
+        width: 100%;
     }
 }
 
@@ -67,4 +69,9 @@
     color: white;
     background-color: var(--accent);
     cursor: pointer;
+}
+@media (max-width: 450px) {
+    .section-btn{
+        width: 100%;
+    }
 }

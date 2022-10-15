@@ -1,6 +1,7 @@
 .info {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: var(--light-bg);
 }
 
 .info-wrapper {
@@ -10,11 +11,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 768px) {
-    .info-wrapper {
-        text-align: center;
-    }
-}
+
 
 @media (min-width: 768px) {
     .info-wrapper {
@@ -37,10 +34,8 @@
     }
 }
 
-.info-question {
-    cursor: pointer;
-}
-
-.info-sign span{
-    color: var(--secondry);
+.before-msg {
+    
+    font-weight: 500;
+    max-width: 300px;
 }
