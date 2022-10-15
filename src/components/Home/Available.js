@@ -9,7 +9,7 @@ const Available = () => {
                     I'm currently availble for freelance Work.
                 </h3>
                 <p className={classes['availble-p']}>
-                    If you're lookink for developer that likes to get stuff done,let's talk
+                    If you're looking for developer that likes to get stuff done,let's talk
                 </p>
                 <p className={classes['availble-email']}>
                     yahiaelsayed19@gmail.com
