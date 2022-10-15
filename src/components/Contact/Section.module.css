@@ -1,37 +1,3 @@
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.section-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-@media (min-width: 768px) {
-    .section-wrapper {
-        width: 750px;
-    }
-}
-
-
-
-@media (min-width: 992px) {
-    .section-wrapper {
-        width: 970px;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .section-wrapper {
-        width: 1170px;
-    }
-}
 
 .section-p {
     color: var(--black-75);

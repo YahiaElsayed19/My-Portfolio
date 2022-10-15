@@ -1,0 +1,34 @@
+.form-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-section__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .form-section__wrapper {
+        width: 750px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .form-section__wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .form-section__wrapper {
+        width: 1170px;
+    }
+}
