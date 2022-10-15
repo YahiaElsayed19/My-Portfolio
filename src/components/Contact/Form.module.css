@@ -47,3 +47,8 @@ textarea:focus {
         align-items: stretch;
     }
 }
+
+.form-msg {
+    color: var(--accent);
+    text-align: center;
+}
