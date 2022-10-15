@@ -3,6 +3,8 @@ import Freelance from './Freelance'
 import Info from './Info'
 import FormSection from './FormSection'
 import ContactFooter from './ContactFooter'
+import GoToTop from '../Helpers/GoToTop'
+
 
 const Contact = () => {
     return (
@@ -11,6 +13,7 @@ const Contact = () => {
             <Info />
             <FormSection />
             <ContactFooter />
+            <GoToTop />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import classes from './Available.module.css'
 
 const Available = () => {
@@ -14,11 +15,11 @@ const Available = () => {
                 <p className={classes['availble-email']}>
                     yahiaelsayed19@gmail.com
                 </p>
-                <a href='mailto:yahiaelsayed19@gmail.com'>
+                <Link to='/contact'>
                     <button className={classes['availble-btn']}>
                         Got a project in mind? Let's talk!
                     </button>
-                </a>
+                </Link>
             </div>
         </div>
     )

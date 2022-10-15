@@ -3,6 +3,7 @@ import Available from './Available'
 import Landing from './Landing'
 import MyWork from './MyWork'
 import Footer from './Footer'
+import GoToTop from '../Helpers/GoToTop'
 
 const Home = () => {
     const myWorkRef = useRef()
@@ -15,6 +16,7 @@ const Home = () => {
             <MyWork ref={myWorkRef} />
             <Available />
             <Footer/>
+            <GoToTop />
         </>
     )
 }
