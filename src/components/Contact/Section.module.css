@@ -2,6 +2,7 @@
 .section-p {
     color: var(--black-75);
     line-height: 3;
+    width: 650px;
 }
 
 .section-email {
