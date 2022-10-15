@@ -3,7 +3,7 @@ import classes from './Form.module.css'
 
 const Form = () => {
     return (
-        <form className={classes['form-wrapper']}>
+        <form className={classes['form-inline']}>
             <label htmlFor='name'>Your Name</label>
             <input type="text" id='name' placeholder='Enter Your Name'></input>
 
@@ -11,7 +11,7 @@ const Form = () => {
             <input type="email" id='email' placeholder='Enter Email Address'></input>
 
             <label htmlFor='project'>Project Details</label>
-            <textarea type="text" id='project' placeholder='Enter Project Details'></textarea>
+            <input type="text" id='project' placeholder='Enter Project Details'></input>
 
             <label htmlFor='budget'>Your Budget Range</label>
             <input type="number" id='budget' placeholder='Enter Budget Range'></input>
