@@ -18,6 +18,7 @@ textarea {
     background-color: var(--light-bg);
     border: none;
     border-radius: 6px;
+    font-family: 'cairo' , sans-serif;
 }
 
 textarea {
