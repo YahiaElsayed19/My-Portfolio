@@ -6,14 +6,14 @@ form {
 }
 
 form label {
-    margin: 5px 10px 0px 0;
+    margin: 5px 10px 0 0;
     font-weight: bold;
 }
 
 form input,
 textarea {
     vertical-align: middle;
-    margin: 5px 10px 25px 0;
+    margin: 5px 0 25px ;
     padding: 25px;
     background-color: var(--light-bg);
     border: none;
