@@ -15,14 +15,14 @@ form {
     display: flex;
     flex-direction: column;
     width: 48%;
-    margin: 1%;
+    margin-right: 2%;
 }
 
 .textarea-wrapper {
     display: flex;
     flex-direction: column;
     width: 99%;
-    margin: 1%;
+    margin-right: 1%;
 }
 
 form label {
