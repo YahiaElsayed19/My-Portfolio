@@ -53,9 +53,6 @@ const BasicForm = () => {
                         );
                         setSending(false)
                         setSuccess(true)
-                        setTimeout(() => {
-                            setSuccess(false)
-                        }, 4000);
                         setSubmitting(false);
                     }, 400);
                 }}
@@ -136,11 +133,11 @@ const BasicForm = () => {
                                 Let's do this!
                             </button>
                         </div>
-                        {sending && <p className={classes.msg}>sending...</p>}
-                        {success && <p className={classes.msg}>Successfully sent!</p>}
                     </form>
                 )}
             </Formik>
+            {sending && <p className={classes.msg}>sending...</p>}
+            {success && <p className={classes.msg}>Successfully sent!</p>}
         </div >
     )
 }

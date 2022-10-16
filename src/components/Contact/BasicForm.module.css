@@ -78,13 +78,8 @@ form button {
     }
 }
 
-form .msg {
+.msg {
     color: var(--accent);
-    text-align: center;
+    text-align: right;
     margin-bottom: 0;
-}
-
-form .error {
-    margin-top: -15px;
-    color: var(--secondry);
 }
