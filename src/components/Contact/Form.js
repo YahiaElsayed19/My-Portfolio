@@ -48,13 +48,6 @@ const Form = () => {
                 ref={emailRef}
             ></input>
 
-            <label htmlFor="project">Project Details</label>
-            <input
-                type="text"
-                id="project"
-                placeholder="Enter Project Details"
-                ref={projectRef}
-            ></input>
 
             <label htmlFor="budget">Your Budget Range</label>
             <input
@@ -72,6 +65,13 @@ const Form = () => {
                 placeholder="Enter Timeline"
                 ref={timelineRef}
             ></input>
+
+            <label htmlFor="project">Project Details</label>
+            <textarea
+                id="project"
+                placeholder="Enter Project Details"
+                ref={projectRef}
+            ></textarea>
 
             <button onClick={submitHandler}>Let's do this</button>
             {sending && !show && <p className={classes['form-msg']}>Sending...</p>}

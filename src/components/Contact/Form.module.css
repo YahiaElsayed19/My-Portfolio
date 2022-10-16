@@ -19,7 +19,9 @@ textarea {
     border-radius: 6px;
 }
 
-
+textarea{
+    resize: vertical;
+}
 
 .form-inline input:focus,
 textarea:focus {
