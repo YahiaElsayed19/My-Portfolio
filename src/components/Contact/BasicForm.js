@@ -70,61 +70,72 @@ const BasicForm = () => {
                     isSubmitting,
                 }) => (
                     <form onSubmit={handleSubmit}>
-                        <label htmlFor='name'>Your Name</label>
-                        <input
-                            type="text"
-                            name="name"
-                            placeholder='enter your name'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.name}
-                        />
-                        <p className={classes.error}>{errors.name && touched.name && errors.name}</p>
-                        <label htmlFor='email'>Your Email Address</label>
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder='enter your email'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.email}
-                        />
-                        <p className={classes.error}>{errors.email && touched.email && errors.email}</p>
-                        <label htmlFor='project'>Your project</label>
-                        <textarea
-                            type="text"
-                            name="project"
-                            rows="7"
-                            placeholder='enter your project details'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.project}
-                        />
-                        <p className={classes.error}> {errors.project && touched.project && errors.project}</p>
-
-                        <label htmlFor='budget'>Your budget</label>
-                        <input
-                            type="text"
-                            name="budget"
-                            placeholder='enter your budget'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.budget}
-                        />
-                        <p className={classes.error}>{errors.budget && touched.budget && errors.budget}</p>
-                        <label htmlFor='timeline'>Your timeline</label>
-                        <input
-                            type="text"
-                            name="timeline"
-                            placeholder='enter your timeline'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.timeline}
-                        />
-                        <p className={classes.error}>{errors.timeline && touched.timeline && errors.timeline}</p>
-                        <button type="submit" disabled={isSubmitting}>
-                            Let's do this!
-                        </button>
+                        <div className={classes['input-wrapper']}>
+                            <label htmlFor='name'>Your Name</label>
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder='enter your name'
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.name}
+                            />
+                            <p className={classes.error}>{errors.name && touched.name && errors.name}</p>
+                        </div>
+                        <div className={classes['input-wrapper']}>
+                            <label htmlFor='email'>Your Email Address</label>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder='enter your email'
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.email}
+                            />
+                            <p className={classes.error}>{errors.email && touched.email && errors.email}</p>
+                        </div>
+                        <div className={classes['textarea-wrapper']}>
+                            <label htmlFor='project'>Your project</label>
+                            <textarea
+                                type="text"
+                                name="project"
+                                rows="7"
+                                placeholder='enter your project details'
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.project}
+                            />
+                            <p className={classes.error}> {errors.project && touched.project && errors.project}</p>
+                        </div>
+                        <div className={classes['input-wrapper']}>
+                            <label htmlFor='budget'>Your budget</label>
+                            <input
+                                type="text"
+                                name="budget"
+                                placeholder='enter your budget'
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.budget}
+                            />
+                            <p className={classes.error}>{errors.budget && touched.budget && errors.budget}</p>
+                        </div>
+                        <div className={classes['input-wrapper']}>
+                            <label htmlFor='timeline'>Your timeline</label>
+                            <input
+                                type="text"
+                                name="timeline"
+                                placeholder='enter your timeline'
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.timeline}
+                            />
+                            <p className={classes.error}>{errors.timeline && touched.timeline && errors.timeline}</p>
+                        </div>
+                        <div className={classes['btn-wrapper']}>
+                            <button type="submit" disabled={isSubmitting}>
+                                Let's do this!
+                            </button>
+                        </div>
                         {sending && <p className={classes.msg}>sending...</p>}
                         {success && <p className={classes.msg}>Successfully sent!</p>}
                     </form>

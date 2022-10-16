@@ -1,8 +1,27 @@
 form {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    form {
+        margin-left: 0;
+    }
+}
+
+.input-wrapper {
+    display: flex;
     flex-direction: column;
-    align-items: stretch;
+    width: 48%;
+    margin: 1%;
+}
+
+.textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin: 1%;
 }
 
 form label {
@@ -13,7 +32,7 @@ form label {
 form input,
 textarea {
     vertical-align: middle;
-    margin: 5px 0 25px ;
+    margin: 5px 0 25px;
     padding: 25px;
     background-color: var(--light-bg);
     border: none;
@@ -30,6 +49,10 @@ textarea:focus {
     outline: none;
 }
 
+.btn-wrapper {
+    width: 100%;
+}
+
 form button {
     padding: 1.2rem 4rem;
     border: none;
@@ -38,6 +61,7 @@ form button {
     background-image: var(--brand-gradient);
     cursor: pointer;
     margin-top: 30px;
+    width: 100%;
 }
 
 

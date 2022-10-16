@@ -8,8 +8,14 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
+@media (max-width: 768px) {
+    .form-section__wrapper {
+        flex-direction: column;
+    }
+}
 
 
 @media (min-width: 768px) {
