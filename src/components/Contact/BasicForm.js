@@ -90,6 +90,18 @@ const BasicForm = () => {
                             value={values.email}
                         />
                         <p className={classes.error}>{errors.email && touched.email && errors.email}</p>
+                        <label htmlFor='project'>Your project</label>
+                        <textarea
+                            type="text"
+                            name="project"
+                            rows="7"
+                            placeholder='enter your project details'
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            value={values.project}
+                        />
+                        <p className={classes.error}> {errors.project && touched.project && errors.project}</p>
+
                         <label htmlFor='budget'>Your budget</label>
                         <input
                             type="text"
@@ -110,17 +122,6 @@ const BasicForm = () => {
                             value={values.timeline}
                         />
                         <p className={classes.error}>{errors.timeline && touched.timeline && errors.timeline}</p>
-                        <label htmlFor='project'>Your project</label>
-                        <textarea
-                            type="text"
-                            name="project"
-                            rows="7"
-                            placeholder='enter your project details'
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.project}
-                        />
-                        <p className={classes.error}> {errors.project && touched.project && errors.project}</p>
                         <button type="submit" disabled={isSubmitting}>
                             Let's do this!
                         </button>
