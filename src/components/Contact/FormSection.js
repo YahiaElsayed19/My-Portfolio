@@ -1,6 +1,5 @@
 import React from 'react'
 import Section from './Section'
-import Form from './Form'
 import classes from './FormSection.module.css'
 import BasicForm from './BasicForm'
 
