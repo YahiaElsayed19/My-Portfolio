@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Available from './Available'
+import Available from '../Available/Available'
 import Landing from './Landing'
 import MyWork from './MyWork'
 import GoToTop from '../Helpers/GoToTop'
