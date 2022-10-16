@@ -38,7 +38,7 @@ form label {
 form input,
 textarea {
     vertical-align: middle;
-    margin: 5px 0 25px;
+    margin: 5px 0 ;
     padding: 25px;
     background-color: var(--light-bg);
     border: none;
@@ -68,14 +68,6 @@ form button {
     cursor: pointer;
     margin-top: 30px;
     width: 100%;
-}
-
-
-@media (max-width: 768px) {
-    .form {
-        flex-direction: column;
-        align-items: stretch;
-    }
 }
 
 .msg {
