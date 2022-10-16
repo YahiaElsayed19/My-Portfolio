@@ -54,6 +54,7 @@ form button {
 form .msg {
     color: var(--accent);
     text-align: center;
+    margin-bottom: 0;
 }
 
 form .error {

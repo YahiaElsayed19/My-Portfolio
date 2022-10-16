@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Formik } from 'formik'
 import classes from './BasicForm.module.css'
 const BasicForm = () => {
+    const [sending, setSending] = useState(false)
+    const [success, setSuccess] = useState(false)
     return (
         <div>
             <Formik
@@ -31,6 +33,8 @@ const BasicForm = () => {
                 }}
                 onSubmit={(values, { setSubmitting }) => {
                     setTimeout(async () => {
+                        setSuccess(false)
+                        setSending(true)
                         await fetch(
                             "https://portfolio-9ff74-default-rtdb.firebaseio.com/jobs.json",
                             {
@@ -47,6 +51,11 @@ const BasicForm = () => {
                                 },
                             }
                         );
+                        setSending(false)
+                        setSuccess(true)
+                        setTimeout(() => {
+                            setSuccess(false)
+                        }, 4000);
                         setSubmitting(false);
                     }, 400);
                 }}
@@ -114,6 +123,8 @@ const BasicForm = () => {
                         <button type="submit" disabled={isSubmitting}>
                             Let's do this!
                         </button>
+                        {sending && <p className={classes.msg}>sending...</p>}
+                        {success && <p className={classes.msg}>Successfully sent!</p>}
                     </form>
                 )}
             </Formik>
