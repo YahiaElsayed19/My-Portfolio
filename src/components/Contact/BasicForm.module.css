@@ -7,6 +7,7 @@ form {
 @media (max-width: 768px) {
     form {
         margin-left: 0;
+        margin-right: 0;
     }
 }
 
