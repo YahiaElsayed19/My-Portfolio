@@ -99,7 +99,7 @@ const BasicForm = () => {
                             <textarea
                                 type="text"
                                 name="project"
-                                rows="7"
+                                rows="3"
                                 placeholder='enter your project details'
                                 onChange={handleChange}
                                 onBlur={handleBlur}
