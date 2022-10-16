@@ -41,7 +41,7 @@ form button {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     form input {
         margin: 5px 0 25px;
     }
