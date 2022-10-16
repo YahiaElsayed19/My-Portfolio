@@ -2,7 +2,6 @@ import React from 'react'
 import Freelance from './Freelance'
 import Info from './Info'
 import FormSection from './FormSection'
-import ContactFooter from './ContactFooter'
 import GoToTop from '../Helpers/GoToTop'
 
 
@@ -12,7 +11,6 @@ const Contact = () => {
             <Freelance />
             <Info />
             <FormSection />
-            <ContactFooter />
             <GoToTop />
         </>
     )
