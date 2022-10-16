@@ -82,7 +82,7 @@ const BasicForm = () => {
                             />
                             <p className={classes.error}>{errors.name && touched.name && errors.name}</p>
                         </div>
-                        <div className={classes['input-wrapper']}>
+                        <div className={`${classes['input-wrapper']} ${classes['email-input']}`}>
                             <label htmlFor='email'>Your Email Address</label>
                             <input
                                 type="email"
@@ -119,7 +119,7 @@ const BasicForm = () => {
                             />
                             <p className={classes.error}>{errors.budget && touched.budget && errors.budget}</p>
                         </div>
-                        <div className={classes['input-wrapper']}>
+                        <div className={`${classes['input-wrapper']} ${classes['timeline-input']}`}>
                             <label htmlFor='timeline'>Your timeline</label>
                             <input
                                 type="text"
