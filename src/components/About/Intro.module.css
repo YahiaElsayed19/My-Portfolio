@@ -1,6 +1,6 @@
 .intro {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .intro-wrapper {
@@ -44,7 +44,7 @@
 
 .intro-image {
     width: 100%;
-    max-height: 500px;
+    max-height: 370px;
     margin: 50px auto;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
