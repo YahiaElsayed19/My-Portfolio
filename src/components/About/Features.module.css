@@ -48,11 +48,11 @@
     }
 }
 
-/* .feature-box {
+.feature-box {
     padding: 2rem;
     border-radius: 6px;
     background-color: var(--light-bg);
-} */
+}
 
 .feature-box img {
     width: 40px;
