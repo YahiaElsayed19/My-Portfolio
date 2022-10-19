@@ -29,6 +29,12 @@ form {
     flex-direction: column;
     width: 100%;
 }
+@media (max-width: 768px) {
+    .textarea-wrapper {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+}
 
 form label {
     margin: 5px 10px 0 0;
@@ -38,7 +44,7 @@ form label {
 form input,
 textarea {
     vertical-align: middle;
-    margin: 5px 0 ;
+    margin: 5px 0;
     padding: 25px;
     background-color: var(--light-bg);
     border: none;
@@ -74,4 +80,10 @@ form button {
     color: var(--accent);
     text-align: right;
     margin-bottom: 0;
+}
+
+.error {
+    font-size: 14px;
+    color: var(--secondry);
+    margin-top: 0;
 }
