@@ -1,8 +1,9 @@
 import React from 'react'
+import Intro from './Intro'
 
 const About = () => {
     return (
-        <div>About</div>
+        <Intro />
     )
 }
 
