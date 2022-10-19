@@ -24,11 +24,26 @@ form {
     margin-left: 1%;
 }
 
+@media (max-width: 768px) {
+    .input-wrapper {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .email-input,
+    .timeline-input {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
 .textarea-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+
 @media (max-width: 768px) {
     .textarea-wrapper {
         margin-top: -10px;
