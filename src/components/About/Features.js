@@ -28,6 +28,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.10 }}
+                        viewport={{once:true}}
                         className={classes["feature-box"]}>
                         <img src={clock} alt="clock"></img>
                         <h5 className={classes["features-h5"]}>On-time delivery</h5>
@@ -41,6 +42,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.20 }}
+                        viewport={{once:true}}
                         className={classes["feature-box"]}>
                         <img src={medal} alt="medal"></img>
                         <h5 className={classes["features-h5"]}>Quality</h5>
@@ -55,6 +57,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.30 }}
+                        viewport={{once:true}}
                         className={classes["feature-box"]}>
                         <img src={rocket} alt="rocket"></img>
                         <h5 className={classes["features-h5"]}>
