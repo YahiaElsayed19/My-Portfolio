@@ -33,8 +33,7 @@ const Landing = (props) => {
                         <motion.button
                             variants={variants}
                             initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
+                            animate="visible"
                             className={classes['landing-btn']}>
                             My resume
                         </motion.button>
