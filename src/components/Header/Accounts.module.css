@@ -35,7 +35,13 @@
 .icon {
     color: var(--black-color);
     margin: 4px;
+    transition-duration: 0.3s;
 }
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
 
 @media (max-width: 500px) {
     .icon {

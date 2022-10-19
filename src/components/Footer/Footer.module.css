@@ -45,6 +45,10 @@
 .footer-icon {
     color: var(--accent);
     margin: 1rem;
+    transition-duration: 0.3s;
+}
+.footer-icon:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
