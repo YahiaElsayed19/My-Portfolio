@@ -7,7 +7,7 @@ const Testimonials = () => {
             <div className={classes["testimonials-wrapper"]}>
                 <div className={classes["testimonials-card"]}>
                     <h5 className={classes["testimonials-h5"]}>
-                        “Working with Robert has been an absolute pleasure and we’ll
+                        “Working with Yahia has been an absolute pleasure and we'll
                         definitely turn to his expertise for new projects.”
                     </h5>
                     <BsPersonCircle className={classes["testimonials-icon"]} size="50px" />
@@ -16,11 +16,10 @@ const Testimonials = () => {
                 </div>
                 <div className={classes["testimonials-card"]}>
                     <h5 className={classes["testimonials-h5"]}>
-                        “Working with Robert has been an absolute pleasure and we’ll
-                        definitely turn to his expertise for new projects.”
+                        “Wanna get stuff done professionally, Definitely that's the man  ”
                     </h5>
                     <BsPersonCircle className={classes["testimonials-icon"]} size="50px"/>
-                    <p className={classes["testimonials-name"]}>Mohamed Gamal</p>
+                    <p className={classes["testimonials-name"]}>Omar</p>
                     <p className={classes["testimonials-p"]}>UX/UI Designer</p>
                 </div>
             </div>
