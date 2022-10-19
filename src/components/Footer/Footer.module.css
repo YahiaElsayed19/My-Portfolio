@@ -43,7 +43,7 @@
 }
 
 .footer-icon {
-    color: var(--secondry);
+    color: var(--accent);
     margin: 1rem;
 }
 
@@ -53,7 +53,6 @@
         margin-top: -8px;
     }
     .footer-icon {
-        color: var(--secondry);
         margin: 0.9rem 0.5rem 0;
     }
 }
