@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react";
+import { motion } from 'framer-motion'
 import classes from "./MyWork.module.css";
 import template1 from "../../assets/template1.png";
 import template2 from "../../assets/template2.png";
@@ -73,7 +74,12 @@ const BOXES = [
 const MyWork = forwardRef((props, ref) => {
 
     const content = BOXES.map((box) => (
-        <div className={classes["my-work__box"]} key={box.id}>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className={classes["my-work__box"]} key={box.id}>
             <p className={classes["my-work__description"]}>{box.description}</p>
             <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
             <div className={classes["my-work__btn"]}>
@@ -84,11 +90,12 @@ const MyWork = forwardRef((props, ref) => {
                     <BsFillEyeFill className={classes["my-work__icon"]} size="40px" />
                 </a>
             </div>
-        </div>
+        </motion.div>
     ));
 
     return (
-        <div className={classes["my-work"]} ref={ref} >
+        <div
+            className={classes["my-work"]} ref={ref} >
             <div className={classes["my-work__wrapper"]}>
                 <h1 className={classes["my-work__h1"]}>My Work</h1>
                 <p className={classes["my-work__p"]}>I specialize in website design and development.</p>
