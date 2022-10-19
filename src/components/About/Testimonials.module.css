@@ -1,6 +1,7 @@
 .testimonials {
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: var(--light-bg);
 }
 
 .testimonials-wrapper {
@@ -8,6 +9,9 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -29,4 +33,34 @@
     .testimonials-wrapper {
         width: 1170px;
     }
+}
+
+.testimonials-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-h5 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.testimonials-icon {
+    color: var(--secondry);
+}
+
+.testimonials-name {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.testimonials-p {
+    color: var(--black-75);
+    margin-top: -10px;
 }
