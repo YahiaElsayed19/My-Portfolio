@@ -1,8 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import classes from './Available.module.css'
 
 const Available = () => {
+    const variants = {
+        hidden: {
+            opacity: 0,
+            y: 100,
+        },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.5
+            },
+        }
+    }
     return (
         <div className={classes.availble}>
             <div className={classes['availble-wrapper']}>
@@ -16,9 +30,14 @@ const Available = () => {
                     yahiaelsayed19@gmail.com
                 </p>
                 <Link to='/contact'>
-                    <button className={classes['availble-btn']}>
+                    <motion.button
+                        variants={variants}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        className={classes['availble-btn']}>
                         Got a project in mind? Let's talk!
-                    </button>
+                    </motion.button>
                 </Link>
             </div>
         </div>
