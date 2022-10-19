@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Question.module.css";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Question = (props) => {
     const [isOpen, setIsOpen1] = useState(false);
@@ -20,8 +21,14 @@ const Question = (props) => {
                     {props.question}
                 </p>
             )}
-            {isOpen && <p className={classes["info-answer"]}>{props.answer}</p>}
-        </div>
+            {isOpen &&
+                <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className={classes["info-answer"]}>{props.answer}</motion.p>
+            }
+        </div >
     );
 };
 
