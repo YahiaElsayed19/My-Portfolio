@@ -11,16 +11,16 @@ const Testimonials = () => {
                         definitely turn to his expertise for new projects.”
                     </h5>
                     <BsPersonCircle className={classes["testimonials-icon"]} size="50px" />
-                    <p className={classes["testimonials-name"]}>Gaber Tarek</p>
-                    <p className={classes["testimonials-p"]}>Mobile Developer</p>
+                    <p className={classes["testimonials-name"]}>Ahmed Hassan</p>
+                    <p className={classes["testimonials-p"]}>Client</p>
                 </div>
                 <div className={classes["testimonials-card"]}>
                     <h5 className={classes["testimonials-h5"]}>
-                        “Wanna get stuff done professionally, Definitely that's the man  ”
+                        “Wanna get stuff done professionally, Definitely that's the man I recommend him to anyone”
                     </h5>
-                    <BsPersonCircle className={classes["testimonials-icon"]} size="50px"/>
-                    <p className={classes["testimonials-name"]}>Omar</p>
-                    <p className={classes["testimonials-p"]}>UX/UI Designer</p>
+                    <BsPersonCircle className={classes["testimonials-icon"]} size="50px" />
+                    <p className={classes["testimonials-name"]}>Adam Mohamed</p>
+                    <p className={classes["testimonials-p"]}>Client</p>
                 </div>
             </div>
         </div>
