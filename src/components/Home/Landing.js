@@ -28,11 +28,26 @@ const Landing = (props) => {
                     I help business grow by crafting amazing web experiences. If you're
                     looking for a developer that likes to get stuff done, let's talk.
                 </p>
-                <motion.button
-                variants={variants}
-                initial="hidden"
-                animate="visible"
-                className={classes["landing-btn"]} onClick={scrollToMyWork}>See my work </motion.button>
+                <div className={classes['landing-btns']}>
+                    <a href='https://drive.google.com/file/d/1Ltu2FcVjYtqkx_5AwA9487XlCnLCg_uM/view?usp=sharing' target='_blank' className={classes['resume-a']}>
+                        <motion.button
+                            variants={variants}
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            className={classes['landing-btn']}>
+                            My resume
+                        </motion.button>
+                    </a>
+                    <motion.button
+                        variants={variants}
+                        initial="hidden"
+                        animate="visible"
+                        className={classes["landing-btn"]}
+                        onClick={scrollToMyWork}>
+                        See my work
+                    </motion.button>
+                </div>
             </div>
         </div>
     );

@@ -78,8 +78,15 @@
     }
 }
 
+.landing-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .landing-btn {
     padding: 1.2rem 4rem;
+    width: 250px;
     border: none;
     border-radius: 28px;
     color: white;
@@ -87,7 +94,11 @@
     cursor: pointer;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
+    .landing-btns {
+        flex-direction: column;
+    }
+
     .landing-btn {
         width: 100%;
     }
