@@ -1,0 +1,32 @@
+.testimonials {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.testimonials-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .testimonials-wrapper {
+        width: 750px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .testimonials-wrapper {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .testimonials-wrapper {
+        width: 1170px;
+    }
+}

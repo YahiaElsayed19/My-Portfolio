@@ -39,6 +39,7 @@
 .feature-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 @media (max-width: 992px) {
@@ -47,11 +48,11 @@
     }
 }
 
-.feature-box {
+/* .feature-box {
     padding: 2rem;
     border-radius: 6px;
     background-color: var(--light-bg);
-}
+} */
 
 .feature-box img {
     width: 40px;
