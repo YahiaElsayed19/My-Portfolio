@@ -43,6 +43,12 @@
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    .intro-h1 {
+        font-size: 26px;
+    }
+}
+
 .intro-p {
     font-size: 14px;
     color: var(--black-75);
