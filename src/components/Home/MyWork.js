@@ -72,12 +72,25 @@ const BOXES = [
 ];
 
 const MyWork = forwardRef((props, ref) => {
+    const variants = {
+        hidden: {
+            opacity: 0,
+            y: 100,
+        },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.5
+            },
+        }
+    }
 
     const content = BOXES.map((box) => (
         <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            variants={variants}
+            initial="hidden"
+            whileInView="visible"
             viewport={{ once: true }}
             className={classes["my-work__box"]} key={box.id}>
             <p className={classes["my-work__description"]}>{box.description}</p>
