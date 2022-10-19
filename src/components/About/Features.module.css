@@ -36,6 +36,12 @@
     max-width: 500px;
 }
 
+@media (max-width: 768px) {
+    .features-h3 {
+        line-height: 1.4;
+    }
+}
+
 .feature-wrapper {
     display: flex;
     justify-content: space-between;
