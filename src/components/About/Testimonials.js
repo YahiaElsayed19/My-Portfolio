@@ -21,7 +21,7 @@ const Testimonials = () => {
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
-                    transition={{ duration: 0.5, delay: 0.20 }}
+                    transition={{ duration: 0.5, delay: 0.10 }}
                     viewport={{ once: true }}
                     className={classes["testimonials-card"]}>
                     <h5 className={classes["testimonials-h5"]}>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
-                    transition={{ duration: 0.5, delay: 0.10 }}
+                    transition={{ duration: 0.5, delay: 0.20 }}
                     viewport={{ once: true }}
                     className={classes["testimonials-card"]}>
                     <h5 className={classes["testimonials-h5"]}>
