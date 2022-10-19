@@ -3,11 +3,18 @@
     padding-bottom: 120px;
 }
 
-.tools-title{
-    margin: 30px auto;
-    background-color: var(--black);
+.tools-title {
+    margin: 30px auto 120px;
+    padding: 20px;
+    width: 30%;
+    color: white;
+    background-color: var(--black-color);
     border-radius: 50px;
-    color: var(--balck-75);
+    text-align: center;
+}
+
+.tools-title:hover {
+    background-color: black;
 }
 
 .tools-wrapper {
@@ -16,6 +23,9 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -39,6 +49,22 @@
     }
 }
 
-.tools-wrapper img {
-    width: 30px;
+.tool {
+    padding: 40px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tool img {
+    width: 45px;
+    text-align: center;
+}
+
+.tool h6 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
 }
