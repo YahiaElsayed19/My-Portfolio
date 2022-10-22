@@ -16,3 +16,4 @@ const DarkProvider = (props) => {
         </DarkContext.Provider>
     );
 };
+export default DarkProvider;
