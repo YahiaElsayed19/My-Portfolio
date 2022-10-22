@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useContext } from "react";
 import { motion } from 'framer-motion'
 import classes from "./MyWork.module.css";
 import template1 from "../../assets/template1.png";
@@ -11,6 +11,8 @@ import expensetracker from "../../assets/expensetracker.png";
 import foodapp from "../../assets/foodapp.png";
 import { BsGithub } from "react-icons/bs";
 import { BsFillEyeFill } from "react-icons/bs";
+import darkContext from '../../store/dark-context'
+
 
 const BOXES = [
     {
@@ -72,6 +74,11 @@ const BOXES = [
 ];
 
 const MyWork = forwardRef((props, ref) => {
+    const darkCtx = useContext(darkContext)
+    let myWorkClasses = classes["my-work"]
+    if (darkCtx.dark) {
+        myWorkClasses = `${classes["my-work"]} ${classes.dark}`
+    }
     const variants = {
         hidden: {
             opacity: 0,
@@ -108,7 +115,7 @@ const MyWork = forwardRef((props, ref) => {
 
     return (
         <div
-            className={classes["my-work"]} ref={ref} >
+            className={myWorkClasses} ref={ref} >
             <div className={classes["my-work__wrapper"]}>
                 <h1 className={classes["my-work__h1"]}>My Work</h1>
                 <p className={classes["my-work__p"]}>I specialize in website design and development.</p>

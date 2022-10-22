@@ -4,6 +4,11 @@
     background-color: var(--light-bg);
 }
 
+.info.dark {
+    background-color: #2b2b2b;
+    color: #f6f6f6;
+}
+
 .info-wrapper {
     padding-left: 15px;
     padding-right: 15px;

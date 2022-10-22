@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useContext } from "react";
+import darkContext from '../../store/dark-context'
 import classes from './Freelance.module.css'
+
 const Freelance = () => {
+    const darkCtx = useContext(darkContext)
+    let freelanceClasses = classes.freelance
+    if (darkCtx.dark) {
+        freelanceClasses = `${classes.freelance} ${classes.dark}`
+    }
     return (
-        <div className={classes.freelance}>
+        <div className={freelanceClasses}>
             <div className={classes['freelance-wrapper']}>
                 <h3 className={classes['freelance-h3']}>
                     I'm currently availble for freelance Work.

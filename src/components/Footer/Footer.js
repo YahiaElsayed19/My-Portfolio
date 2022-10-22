@@ -1,12 +1,19 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import { IoLogoLinkedin } from 'react-icons/io'
 import { BsTwitter } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
 import classes from './Footer.module.css'
+import darkContext from '../../store/dark-context'
+
 
 const Footer = () => {
+    const darkCtx = useContext(darkContext)
+    let footerClasses = classes['footer']
+    if (darkCtx.dark) {
+        footerClasses = `${classes['footer']} ${classes.dark}`
+    }
     return (
-        <div className={classes['footer']} >
+        <div className={footerClasses} >
             <div className={classes['footer-wrapper']}>
                 <p className={classes['footer-p']}>
                     (c) Copyrights Yahia Elsayed all rights reserved

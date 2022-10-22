@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./Landing.module.css";
 import { motion } from 'framer-motion'
+import darkContext from '../../store/dark-context'
+
 
 const Landing = (props) => {
+    const darkCtx = useContext(darkContext)
+    let landingClasses = classes.landing
+    if (darkCtx.dark) {
+        landingClasses = `${classes.landing} ${classes.dark}`
+    }
+
     const variants = {
         hidden: {
             opacity: 0,
@@ -18,7 +26,7 @@ const Landing = (props) => {
     }
     const scrollToMyWork = props.onScroll;
     return (
-        <div className={classes.landing}>
+        <div className={landingClasses}>
             <div className={classes["landing-wrapper"]}>
                 <h3 className={classes["landing-h3"]}>Hey, I'm Yahia Elsayed</h3>
                 <h1 className={classes["landing-h1"]}>

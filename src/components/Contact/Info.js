@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import darkContext from '../../store/dark-context'
 import classes from "./Info.module.css";
 import Question from "./Question";
 const Info = () => {
 
+    const darkCtx = useContext(darkContext)
+    let infoClasses = classes.info
+    if (darkCtx.dark) {
+        infoClasses = `${classes.info} ${classes.dark}`
+    }
 
     return (
-        <div className={classes.info}>
+        <div className={infoClasses}>
             <div className={classes["info-wrapper"]}>
                 <h1 className={classes['before-msg']}>Before sending me a message, here are some things you should know:</h1>
                 <Question question="What timezone are you in?" answer="With in 3 months." />

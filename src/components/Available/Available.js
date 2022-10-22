@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import classes from './Available.module.css'
+import darkContext from '../../store/dark-context'
 
 const Available = () => {
+    const darkCtx = useContext(darkContext)
+    let availbleClasses = classes.availble
+    if (darkCtx.dark) {
+        availbleClasses = `${classes.availble} ${classes.dark}`
+    }
     const variants = {
         hidden: {
             opacity: 0,
@@ -18,7 +24,7 @@ const Available = () => {
         }
     }
     return (
-        <div className={classes.availble}>
+        <div className={availbleClasses}>
             <div className={classes['availble-wrapper']}>
                 <h3 className={classes['availble-h3']}>
                     I'm currently availble for freelance Work.

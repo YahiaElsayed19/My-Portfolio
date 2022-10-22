@@ -2,7 +2,10 @@
     padding-top: 120px;
     padding-bottom: 60px;
 }
-
+.intro.dark{
+    background-color: #141414;
+    color: #f6f6f6;
+}
 @media (max-width: 768px) {
     .intro {
         padding-top: 80px;
@@ -53,6 +56,9 @@
     font-size: 14px;
     color: var(--black-75);
     max-width: 570px;
+}
+.intro.dark .intro-p{
+    color: #dfdfdf;
 }
 
 .intro-image {

@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { IoLogoLinkedin } from 'react-icons/io'
 import { BsTwitter } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
+import darkContext from '../../store/dark-context'
 import classes from './Accounts.module.css'
 
+
 const Accounts = () => {
+    const darkCtx = useContext(darkContext)
+    let contactClasses = classes.contact
+    if (darkCtx.dark) {
+        contactClasses = `${classes.contact} ${classes.dark}`
+    }
     return (
-        <div className={classes.contact}>
+        <div className={contactClasses}>
             <a href="mailto:yahiaelsayed19@gamil.com" className={classes.email}>
                 yahiaelsayed19@gamil.com
             </a>

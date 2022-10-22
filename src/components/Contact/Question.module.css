@@ -10,12 +10,17 @@
 .info-question {
     color: var(--black-50);
 }
+.question-wrapper.dark .info-question {
+    color: #dfdfdf;
+}
 
 .info-question__active {
     color: var(--black-color);
     font-weight: bold;
 }
-
+.question-wrapper.dark .info-question__active {
+    color: #f6f6f6;
+}
 .info-question p,
 .info-question__active p {
     margin: 0;
@@ -26,4 +31,7 @@
     margin-left: 9px;
     color: var(--black-color);
     font-weight: 400;
+}
+.question-wrapper.dark .info-answer {
+    color: #dfdfdf;
 }

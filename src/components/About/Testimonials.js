@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BsPersonCircle } from "react-icons/bs";
 import classes from "./Testimonials.module.css";
 import { motion } from "framer-motion";
+import darkContext from '../../store/dark-context'
+
 const Testimonials = () => {
+    const darkCtx = useContext(darkContext)
+    let testimonialsClasses = classes.testimonials
+    if (darkCtx.dark) {
+        testimonialsClasses = `${classes.testimonials} ${classes.dark}`
+    }
     const variants = {
         hidden: {
             opacity: 0,
@@ -15,7 +22,7 @@ const Testimonials = () => {
     }
 
     return (
-        <div className={classes.testimonials}>
+        <div className={testimonialsClasses}>
             <div className={classes["testimonials-wrapper"]}>
                 <motion.div
                     variants={variants}

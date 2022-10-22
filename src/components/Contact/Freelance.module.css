@@ -2,12 +2,19 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 @media (max-width: 768px) {
     .freelance {
         padding-top: 80px;
         padding-bottom: 100px;
     }
 }
+
+.freelance.dark {
+    background-color: #141414;
+    color: #f6f6f6;
+}
+
 .freelance-wrapper {
     padding-left: 15px;
     padding-right: 15px;
@@ -52,6 +59,9 @@
     color: var(--black-75);
     max-width: 400px;
     line-height: 1.2;
+}
+.freelance.dark .freelance-p {
+    color: #dfdfdf;
 }
 
 @media (max-width: 768px) {

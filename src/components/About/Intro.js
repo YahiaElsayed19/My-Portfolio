@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import me from '../../assets/me.png'
 import classes from "./Intro.module.css";
+import darkContext from '../../store/dark-context'
+
 
 const Intro = () => {
+    const darkCtx = useContext(darkContext)
+    let introClasses = classes.intro
+    if (darkCtx.dark) {
+        introClasses = `${classes.intro} ${classes.dark}`
+    }
+
     return (
-        <div className={classes.intro}>
+        <div className={introClasses}>
             <div className={classes["intro-wrapper"]}>
                 <h1 className={classes["intro-h1"]}>I'm Yahia Elsayed</h1>
                 <p className={classes["intro-p"]}>

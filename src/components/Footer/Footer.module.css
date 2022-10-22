@@ -2,6 +2,11 @@
     border-top: 1px solid var(--black-25);
 }
 
+.footer.dark {
+    background-color: #141414;
+    border-top: 1px solid #f6f6f6;
+}
+
 .footer-wrapper {
     padding-left: 15px;
     padding-right: 15px;
@@ -41,12 +46,15 @@
 .footer-p {
     color: var(--black-75);
 }
-
+.footer.dark .footer-p{
+    color: #f6f6f6;
+}
 .footer-icon {
     color: var(--accent);
     margin: 1rem;
     transition-duration: 0.3s;
 }
+
 .footer-icon:hover {
     transform: scale(1.2);
 }
@@ -56,6 +64,7 @@
         text-align: center;
         margin-top: -8px;
     }
+
     .footer-icon {
         margin: 0.9rem 0.5rem 0;
     }

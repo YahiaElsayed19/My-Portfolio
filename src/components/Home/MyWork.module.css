@@ -4,6 +4,10 @@
     background-color: #f6f6f6;
 }
 
+.my-work.dark {
+    background-color: #2b2b2b;
+}
+
 .my-work__wrapper {
     padding-left: 15px;
     padding-right: 15px;
@@ -45,6 +49,11 @@
     margin-top: -20px;
 }
 
+.my-work.dark .my-work__description,
+.my-work.dark .my-work__p {
+    color: #f6f6f6;
+}
+
 .my-work__box {
     margin: 2rem;
 }
@@ -55,6 +64,12 @@
         background-color: white;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border-radius: 8px;
+    }
+
+    .my-work.dark .my-work__box {
+        background-color: #2b2b2b;
+        box-shadow: 0px 0px 0px 0px;
+
     }
 }
 
@@ -72,6 +87,10 @@
 .my-work__icon {
     color: var(--black-color);
     margin: 30px 15px;
+}
+
+.my-work.dark .my-work__icon {
+    color: var(--accent);
 }
 
 @media (max-width: 768px) {

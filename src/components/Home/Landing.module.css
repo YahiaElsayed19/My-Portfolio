@@ -2,6 +2,10 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.landing.dark{
+    background-color: #141414;
+    color: #f6f6f6;
+}
 
 @media (max-width: 768px) {
     .landing {
@@ -61,6 +65,9 @@
     color: var(--black-75);
     max-width: 500px;
     margin: 30px auto 70px;
+}
+.landing.dark .landing-p {
+color: #dfdfdf;
 }
 
 @media (max-width: 768px) {

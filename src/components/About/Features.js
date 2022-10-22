@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import clock from "../../assets/alarm-clock 1.png";
 import medal from "../../assets/medal-alt 1.png";
 import rocket from "../../assets/fast-launch 1.png";
 import classes from "./Features.module.css";
 import { motion } from 'framer-motion'
+import darkContext from '../../store/dark-context'
 
 const Features = () => {
+    const darkCtx = useContext(darkContext)
+    let featuresClasses = classes.features
+    if (darkCtx.dark) {
+        featuresClasses = `${classes.features} ${classes.dark}`
+    }
+
     const variants = {
         hidden: {
             opacity: 0,
@@ -17,7 +24,7 @@ const Features = () => {
         }
     }
     return (
-        <div className={classes.features}>
+        <div className={featuresClasses}>
             <div className={classes["features-wrapper"]}>
                 <h3 className={classes["features-h3"]}>
                     Regardless of project size, you will always get:
@@ -28,7 +35,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.10 }}
-                        viewport={{once:true}}
+                        viewport={{ once: true }}
                         className={classes["feature-box"]}>
                         <img src={clock} alt="clock"></img>
                         <h5 className={classes["features-h5"]}>On-time delivery</h5>
@@ -42,7 +49,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.20 }}
-                        viewport={{once:true}}
+                        viewport={{ once: true }}
                         className={classes["feature-box"]}>
                         <img src={medal} alt="medal"></img>
                         <h5 className={classes["features-h5"]}>Quality</h5>
@@ -57,7 +64,7 @@ const Features = () => {
                         initial='hidden'
                         whileInView='visible'
                         transition={{ duration: 0.5, delay: 0.30 }}
-                        viewport={{once:true}}
+                        viewport={{ once: true }}
                         className={classes["feature-box"]}>
                         <img src={rocket} alt="rocket"></img>
                         <h5 className={classes["features-h5"]}>
