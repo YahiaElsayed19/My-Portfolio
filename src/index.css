@@ -16,10 +16,10 @@ code {
 }
 
 :root {
-  --accent: #FC3A79;
-  --secondry: #FE572E;
+  --accent: #0779E4;
+  --secondry: #4CBBB9;
   --light-bg: #F3F2F1;
-  --brand-gradient: linear-gradient(to right, #FE572E, #FF4C80);
+  --brand-gradient: linear-gradient(to left, #4CBBB9, #0779E4);
   --black-color: #261F22;
   --black-75: rgba(38, 31, 34, 0.75);
   --black-50: rgba(38, 31, 34, 0.5);

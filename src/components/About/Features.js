@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import clock from "../../assets/alarm-clock 1.png";
-import medal from "../../assets/medal-alt 1.png";
-import rocket from "../../assets/fast-launch 1.png";
+import clock from "../../assets/alarm-clock 1 (2).png";
+import medal from "../../assets/medal-alt 1 (2).png";
+import rocket from "../../assets/fast-launch 1 (2).png";
 import classes from "./Features.module.css";
 import { motion } from 'framer-motion'
 import darkContext from '../../store/dark-context'
