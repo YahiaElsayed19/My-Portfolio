@@ -83,7 +83,7 @@
     margin: 0 0 15px;
     font-size: 22px;
     max-width: 250px;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 .features.dark .features-h5 {
