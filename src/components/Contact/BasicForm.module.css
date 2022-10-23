@@ -96,7 +96,12 @@ form button {
     text-align: right;
     margin-bottom: 0;
 }
-
+@media (max-width:768px) {
+    .msg{
+        text-align: center;
+    }
+    
+}
 .error {
     font-size: 14px;
     color: var(--secondry);

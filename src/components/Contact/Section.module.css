@@ -4,6 +4,10 @@
     max-width: 650px;
 }
 
+.section.dark .section-p {
+    color: #dfdfdf;
+}
+
 .section-email {
     color: var(--accent);
     font-weight: bold;

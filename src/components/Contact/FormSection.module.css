@@ -2,16 +2,16 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.form-section.dark{
+
+.form-section.dark {
     background-color: #141414;
     color: #f6f6f6;
 }
-.form-section.dark p{
-    color: #dfdfdf;
-}
+
 .form-section.dark input,
-.form-section.dark textarea{
+.form-section.dark textarea {
     background-color: #2b2b2b;
+    color: #dfdfdf;
 }
 
 
