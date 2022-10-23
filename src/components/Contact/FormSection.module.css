@@ -1,6 +1,7 @@
 .form-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    transition-duration: 0.5s;
 }
 
 .form-section.dark {

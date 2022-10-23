@@ -2,6 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--light-bg);
+    transition-duration: 0.5s;
 }
 
 .info.dark {
@@ -42,4 +43,5 @@
 .before-msg {
     font-weight: 500;
     max-width: 650px;
+    transition-duration: 0.5s;
 }

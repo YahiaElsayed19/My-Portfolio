@@ -2,6 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #f6f6f6;
+    transition-duration: 0.5s;
 }
 
 .my-work.dark {
@@ -56,6 +57,7 @@
 
 .my-work__box {
     margin: 2rem;
+    transition-duration: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -76,6 +78,7 @@
 .my-work__description,
 .my-work__p {
     color: var(--black-75);
+    transition-duration: 0.5s;
 }
 
 .my-work__wrapper .my-work__image {
@@ -87,6 +90,7 @@
 .my-work__icon {
     color: var(--black-color);
     margin: 30px 15px;
+    transition-duration: 0.3s;
 }
 
 .my-work.dark .my-work__icon {

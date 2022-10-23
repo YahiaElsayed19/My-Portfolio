@@ -1,6 +1,7 @@
 .intro {
     padding-top: 120px;
     padding-bottom: 60px;
+    transition-duration: 0.5s;
 }
 .intro.dark{
     background-color: #141414;
@@ -44,6 +45,7 @@
 .intro-h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    transition-duration: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -56,6 +58,7 @@
     font-size: 14px;
     color: var(--black-75);
     max-width: 570px;
+    transition-duration: 0.5s;
 }
 .intro.dark .intro-p{
     color: #dfdfdf;

@@ -1,6 +1,7 @@
 .availble {
     padding-top: 60px;
     padding-bottom: 60px;
+    transition-duration: 0.5s;
 }
 
 .availble.dark {
@@ -44,12 +45,14 @@
 .availble-h3 {
     font-size: 24px;
     max-width: 400px;
+    transition-duration: 0.5s;
 }
 
 .availble-p {
     color: var(--black-75);
     max-width: 400px;
     line-height: 1.2;
+    transition-duration: 0.5s;
 }
 
 .availble.dark .availble-p {

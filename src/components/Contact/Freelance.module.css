@@ -1,6 +1,7 @@
 .freelance {
     padding-top: 120px;
     padding-bottom: 120px;
+    transition-duration: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -53,12 +54,14 @@
     font-size: 24px;
     max-width: 400px;
     line-height: 1.2;
+    transition-duration: 0.5s;
 }
 
 .freelance-p {
     color: var(--black-75);
     max-width: 400px;
     line-height: 1.2;
+    transition-duration: 0.5s;
 }
 .freelance.dark .freelance-p {
     color: #dfdfdf;

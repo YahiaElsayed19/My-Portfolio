@@ -2,6 +2,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--light-bg);
+    transition-duration: 0.5s;
 }
 
 .testimonials.dark {
@@ -54,6 +55,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition-duration: 0.5s;
 }
 .testimonials.dark .testimonials-card {
     background-color: #141414;
@@ -61,6 +63,7 @@
 .testimonials-h5 {
     font-size: 18px;
     text-align: center;
+    transition-duration: 0.5s;
 }
 
 .testimonials-icon {
@@ -76,6 +79,7 @@
 .testimonials-p {
     color: var(--black-75);
     margin-top: -10px;
+    transition-duration: 0.5s;
 }
 .testimonials.dark .testimonials-p {
 color: #dfdfdf;

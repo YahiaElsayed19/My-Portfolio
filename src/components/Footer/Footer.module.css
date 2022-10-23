@@ -1,5 +1,6 @@
 .footer {
     border-top: 1px solid var(--black-25);
+    transition-duration: 0.5s;
 }
 
 .footer.dark {
@@ -45,6 +46,7 @@
 
 .footer-p {
     color: var(--black-75);
+    transition-duration: 0.5s;
 }
 .footer.dark .footer-p{
     color: #f6f6f6;

@@ -1,6 +1,7 @@
 .landing {
     padding-top: 120px;
     padding-bottom: 120px;
+    transition-duration: 0.5s;
 }
 .landing.dark{
     background-color: #141414;
@@ -59,12 +60,14 @@
     font-size: 68px;
     margin: auto;
     line-height: 1.2;
+    transition-duration: 0.5s;
 }
 
 .landing-p {
     color: var(--black-75);
     max-width: 500px;
     margin: 30px auto 70px;
+    transition-duration: 0.5s;
 }
 .landing.dark .landing-p {
 color: #dfdfdf;

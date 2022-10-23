@@ -9,6 +9,7 @@
 
 .info-question {
     color: var(--black-50);
+    transition-duration: 0.5s;
 }
 .question-wrapper.dark .info-question {
     color: #dfdfdf;
@@ -17,6 +18,7 @@
 .info-question__active {
     color: var(--black-color);
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 .question-wrapper.dark .info-question__active {
     color: #f6f6f6;
@@ -31,6 +33,7 @@
     margin-left: 9px;
     color: var(--black-color);
     font-weight: 400;
+    transition-duration: 0.5s;
 }
 .question-wrapper.dark .info-answer {
     color: #dfdfdf;
