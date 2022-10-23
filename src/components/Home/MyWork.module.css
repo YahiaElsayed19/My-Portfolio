@@ -90,7 +90,7 @@
 }
 
 .my-work.dark .my-work__icon {
-    color: var(--accent);
+    color: #f6f6f6;
 }
 
 @media (max-width: 768px) {
@@ -99,6 +99,7 @@
     }
 }
 
-.my-work__icon:hover {
+.my-work__icon:hover,
+.my-work.dark .my-work__icon:hover {
     color: var(--accent);
 }
