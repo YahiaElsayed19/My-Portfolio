@@ -12,20 +12,18 @@
     margin: 30px auto 120px;
     padding: 20px;
     width: 45%;
-    color: white;
-    background-color: var(--black-color);
+    color: #f6f6f6;
+    background-color: black;
     border-radius: 50px;
     text-align: center;
     transition-duration: 0.5s;
 }
 
 .tools.dark .tools-title {
-    background-color: black;
+    background-color: #f6f6f6;
+    color: black;
 }
 
-.tools-title:hover {
-    background-color: black;
-}
 
 .tools-wrapper {
     padding-left: 15px;
