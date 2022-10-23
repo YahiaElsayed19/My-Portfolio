@@ -36,7 +36,7 @@ const BasicForm = () => {
                         setSuccess(false)
                         setSending(true)
                         await fetch(
-                            "https://portfolio-9ff74-default-rtdb.firebaseio.com/jobs.json",
+                            "https://portfolio-940b1-default-rtdb.firebaseio.com/jobs.json",
                             {
                                 method: "POST",
                                 body: JSON.stringify({
