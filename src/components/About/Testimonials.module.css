@@ -66,6 +66,7 @@
     font-size: 18px;
     text-align: center;
     transition-duration: 0.5s;
+    max-width: 600px;
 }
 
 .testimonials-icon {
