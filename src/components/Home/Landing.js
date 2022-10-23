@@ -30,7 +30,7 @@ const Landing = (props) => {
             <div className={classes["landing-wrapper"]}>
                 <h3 className={classes["landing-h3"]}>Hey, I'm Yahia Elsayed</h3>
                 <h1 className={classes["landing-h1"]}>
-                    React Developer &<br /> React Native Develpoer
+                    React Developer &<br /> React Native Developer
                 </h1>
                 <p className={classes["landing-p"]}>
                     I help business grow by crafting amazing web experiences. If you're
