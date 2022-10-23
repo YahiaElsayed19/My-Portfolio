@@ -6,8 +6,8 @@ header {
 }
 
 header.dark {
-    background-color: #141414;
-    border-bottom: 1px solid #f6f6f6;
+    background-color: var(--dark-bg);
+    border-bottom: 1px solid var(--dark-main-color);
 
 }
 
@@ -49,12 +49,14 @@ header.dark {
     cursor: pointer;
     color: var(--accent);
     padding: 5px;
-    background-color: #141414;
+    background-color: var(--dark-bg);
     border-radius: 50%;
 }
-.light{
-    background-color: #f6f6f6;
+
+.light {
+    background-color: var(--dark-main-color);
 }
+
 @media (max-width: 450px) {
     .toggle {
         bottom: 40px;

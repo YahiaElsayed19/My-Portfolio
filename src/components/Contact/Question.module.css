@@ -11,8 +11,9 @@
     color: var(--black-50);
     transition-duration: 0.5s;
 }
+
 .question-wrapper.dark .info-question {
-    color: #dfdfdf;
+    color: var(--dark-secondry-color);
 }
 
 .info-question__active {
@@ -20,9 +21,11 @@
     font-weight: bold;
     transition-duration: 0.5s;
 }
+
 .question-wrapper.dark .info-question__active {
-    color: #f6f6f6;
+    color: var(--dark-main-color);
 }
+
 .info-question p,
 .info-question__active p {
     margin: 0;
@@ -35,6 +38,7 @@
     font-weight: 400;
     transition-duration: 0.5s;
 }
+
 .question-wrapper.dark .info-answer {
-    color: #dfdfdf;
+    color: var(--dark-secondry-color);
 }

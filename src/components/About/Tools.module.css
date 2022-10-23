@@ -5,7 +5,7 @@
 }
 
 .tools.dark {
-    background-color: #141414;
+    background-color: var(--dark-bg);
 }
 
 .tools-title {
@@ -69,9 +69,10 @@
     width: 180px;
     transition-duration: 0.5s;
 }
-.tools.dark .tool{
-    background-color: #2b2b2b;
-    color: #f6f6f6;
+
+.tools.dark .tool {
+    background-color: var(--dark-secondry-bg);
+    color: var(--dark-main-color);
 }
 
 .tool img {

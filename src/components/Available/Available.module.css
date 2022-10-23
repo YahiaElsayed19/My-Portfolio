@@ -5,8 +5,8 @@
 }
 
 .availble.dark {
-    background-color: #141414;
-    color: #f6f6f6;
+    background-color: var(--dark-bg);
+    color: var(--dark-main-color);
 }
 
 .availble-wrapper {
@@ -56,7 +56,7 @@
 }
 
 .availble.dark .availble-p {
-    color: #dfdfdf;
+    color: var(--dark-secondry-color);
 }
 
 @media (max-width: 768px) {

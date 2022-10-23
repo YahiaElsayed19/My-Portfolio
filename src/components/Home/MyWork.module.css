@@ -1,12 +1,12 @@
 .my-work {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #f6f6f6;
+    background-color: var(--dark-main-color);
     transition-duration: 0.5s;
 }
 
 .my-work.dark {
-    background-color: #2b2b2b;
+    background-color: var(--dark-secondry-bg);
 }
 
 .my-work__wrapper {
@@ -52,7 +52,7 @@
 
 .my-work.dark .my-work__description,
 .my-work.dark .my-work__p {
-    color: #f6f6f6;
+    color: var(--dark-main-color);
 }
 
 .my-work__box {
@@ -69,7 +69,7 @@
     }
 
     .my-work.dark .my-work__box {
-        background-color: #141414;
+        background-color: var(--dark-bg);
         box-shadow: 0px 0px 0px 0px;
 
     }
@@ -94,7 +94,7 @@
 }
 
 .my-work.dark .my-work__icon {
-    color: #f6f6f6;
+    color: var(--dark-main-color);
 }
 
 @media (max-width: 768px) {

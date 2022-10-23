@@ -6,7 +6,7 @@
 }
 
 .section.dark .section-p {
-    color: #dfdfdf;
+    color: var(--dark-secondry-color);
 }
 
 .section-email {

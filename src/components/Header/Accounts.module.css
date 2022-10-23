@@ -33,7 +33,7 @@
 }
 
 .contact.contact.dark .email:after {
-    background-color: #f6f6f6;
+    background-color: var(--dark-main-color);
 }
 
 .icon {

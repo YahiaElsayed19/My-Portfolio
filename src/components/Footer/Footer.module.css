@@ -4,8 +4,8 @@
 }
 
 .footer.dark {
-    background-color: #141414;
-    border-top: 1px solid #f6f6f6;
+    background-color: var(--dark-bg);
+    border-top: 1px solid var(--dark-main-color);
 }
 
 .footer-wrapper {
@@ -48,9 +48,11 @@
     color: var(--black-75);
     transition-duration: 0.5s;
 }
-.footer.dark .footer-p{
-    color: #f6f6f6;
+
+.footer.dark .footer-p {
+    color: var(--dark-main-color);
 }
+
 .footer-icon {
     color: var(--accent);
     margin: 1rem;
