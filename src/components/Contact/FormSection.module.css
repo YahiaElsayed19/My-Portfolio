@@ -13,9 +13,6 @@
 .form-section.dark textarea{
     background-color: #2b2b2b;
 }
-.form-section.dark .error {
-    color: var(--secondry);
-}
 
 .form-section__wrapper {
     padding-left: 15px;
