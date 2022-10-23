@@ -1,5 +1,8 @@
 import React, { forwardRef, useContext } from "react";
 import { motion } from 'framer-motion'
+import darkContext from '../../store/dark-context'
+import { RiGithubFill } from "react-icons/ri";
+import { RiEyeFill } from "react-icons/ri"
 import classes from "./MyWork.module.css";
 import template1 from "../../assets/template1.png";
 import template2 from "../../assets/template2.png";
@@ -9,9 +12,6 @@ import quizapp from "../../assets/quizapp.png";
 import todolist from "../../assets/todolist.png";
 import expensetracker from "../../assets/expensetracker.png";
 import foodapp from "../../assets/foodapp.png";
-import { BsGithub } from "react-icons/bs";
-import { BsFillEyeFill } from "react-icons/bs";
-import darkContext from '../../store/dark-context'
 
 
 const BOXES = [
@@ -104,10 +104,10 @@ const MyWork = forwardRef((props, ref) => {
             <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
             <div className={classes["my-work__btn"]}>
                 <a href={box.github} target='_blank'>
-                    <BsGithub className={classes["my-work__icon"]} size="40px" />
+                    <RiGithubFill className={classes["my-work__icon"]} size="48px" />
                 </a>
                 <a href={box.live} target='_blank'>
-                    <BsFillEyeFill className={classes["my-work__icon"]} size="40px" />
+                    <RiEyeFill className={classes["my-work__icon"]} size="48px" />
                 </a>
             </div>
         </motion.div>
