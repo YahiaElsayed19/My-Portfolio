@@ -7,7 +7,7 @@ const DarkProvider = (props) => {
     if (initial) {
         value = initial;
     } else {
-        value = true
+        value = false
     }
     const [dark, setDark] = useState(value);
     const toggleDark = () => {
