@@ -36,7 +36,7 @@
     margin-left: 9px;
     color: var(--black-color);
     font-weight: 400;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .question-wrapper.dark .info-answer {
