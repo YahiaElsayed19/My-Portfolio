@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import React, { useContext } from 'react'
 import { IoLogoLinkedin } from 'react-icons/io'
 import { BsTwitter } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={footerClasses} >
             <div className={classes['footer-wrapper']}>
                 <p className={classes['footer-p']}>
-                    (c) Copyrights Yahia Elsayed all rights reserved
+                    Copyrights &copy; Yahia Elsayed all rights reserved
                 </p>
                 <div className={classes.social}>
                     <a href='https://www.linkedin.com/in/yahiaelsayed19/' target="_blank">
