@@ -12,6 +12,7 @@ import quizapp from "../../assets/quizapp.png";
 import todolist from "../../assets/todolist.png";
 import expensetracker from "../../assets/expensetracker.png";
 import foodapp from "../../assets/foodapp.png";
+import mtdb from '../../assets/mtdb.png'
 
 
 const BOXES = [
@@ -66,10 +67,17 @@ const BOXES = [
     },
     {
         id: "p8",
-        description: "Complete food order  app with React.Js",
+        description: "Complete food order app with React.Js",
         image: foodapp,
         github: "https://github.com/YahiaElsayed19/Food-order-app",
         live: "https://food-order-app-yahia.vercel.app/",
+    },
+    {
+        id: "p9",
+        description: "Complete Movies and Tv Shows Database with React.Js",
+        image: mtdb,
+        github: "https://github.com/YahiaElsayed19/MTDB",
+        live: "https:mtdb.vercel.app/",
     },
 ];
 
