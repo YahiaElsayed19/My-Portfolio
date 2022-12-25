@@ -37,7 +37,7 @@ const Landing = (props) => {
                     looking for a developer that likes to get stuff done, let's talk.
                 </p>
                 <div className={classes['landing-btns']}>
-                    <a href='https://drive.google.com/file/d/1jkaRqI1wF4KBlNH7NWlYPLNdJIWLTlxp/view?usp=share_link' target='_blank' className={classes['resume-a']}>
+                    <a href='https://drive.google.com/file/d/13i91UtV1pq75Xb67gcFqA4nYWmTGPMiP/view?usp=share_link' target='_blank' className={classes['resume-a']}>
                         <motion.button
                             variants={variants}
                             initial="hidden"
