@@ -77,7 +77,7 @@ const BOXES = [
         description: "Complete Movies and Tv Shows Database with React.Js",
         image: mtdb,
         github: "https://github.com/YahiaElsayed19/MTDB",
-        live: "https:mtdb.vercel.app/",
+        live: "https://mtdb.vercel.app/",
     },
 ];
 
