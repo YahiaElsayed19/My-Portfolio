@@ -109,13 +109,12 @@ const MyWork = forwardRef((props, ref) => {
             viewport={{ once: true }}
             className={classes["my-work__box"]} key={box.id}>
             <p className={classes["my-work__description"]}>{box.description}</p>
-            <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
+            <a href={box.live} target='_blank'>
+                <img src={box.image} alt={box.id} className={classes["my-work__image"]} />
+            </a>
             <div className={classes["my-work__btn"]}>
                 <a href={box.github} target='_blank'>
                     <RiGithubFill className={classes["my-work__icon"]} size="48px" />
-                </a>
-                <a href={box.live} target='_blank'>
-                    <RiEyeFill className={classes["my-work__icon"]} size="48px" />
                 </a>
             </div>
         </motion.div>
