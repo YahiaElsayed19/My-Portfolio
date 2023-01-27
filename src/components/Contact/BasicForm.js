@@ -1,63 +1,12 @@
+import { Formik } from 'formik';
+import { useState } from 'react';
 import classes from './BasicForm.module.css'
-const BasicForm = () => {
-    return (
-<<<<<<< HEAD
-        <div >
-            <form action="https://getform.io/f/418ff3c1-71c8-44dc-a4ca-a21d33c0a242" method="POST">
-                <div className={classes['input-wrapper']}>
-                    <label htmlFor='name'>Name</label>
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder='enter your name'
-                        required
-                    />
-                </div>
-                <div className={`${classes['input-wrapper']} ${classes['email-input']}`}>
-                    <label htmlFor='email'>Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder='enter your email'
-                        required
-                    />
-                </div>
-                <div className={classes['textarea-wrapper']}>
-                    <label htmlFor='project'> Project</label>
-                    <textarea
-                        type="text"
-                        name="project"
-                        rows="3"
-                        placeholder='enter your project details'
-                        required
-                    />
-                </div>
-                <div className={classes['input-wrapper']}>
-                    <label htmlFor='budget'> Budget</label>
-                    <input
-                        type="text"
-                        name="budget"
-                        placeholder='enter your budget'
-                        required
-                    />
 
-                </div>
-                <div className={`${classes['input-wrapper']} ${classes['timeline-input']}`}>
-                    <label htmlFor='timeline'>Timeline</label>
-                    <input
-                        type="text"
-                        name="timeline"
-                        placeholder='enter your timeline'
-                        required
-                    />
-                </div>
-                <div className={classes['btn-wrapper']}>
-                    <button type="submit">
-                        Let's do this!
-                    </button>
-                </div>
-            </form>
-=======
+const BasicForm = () => {
+    const [sending, setSending] = useState(false);
+    const [success, setSuccess] = useState(false);
+
+    return (
         <div>
             <Formik
                 initialValues={{ email: '', name: '', budget: '', timeline: '', project: '' }}
@@ -191,7 +140,6 @@ const BasicForm = () => {
             </Formik>
             {sending && <p className={classes.msg}>sending...</p>}
             {success && <p className={classes.msg}>Successfully sent!</p>}
->>>>>>> b2563412e4a25494b1fa8c88119fe86581daea9e
         </div >
     )
 }
