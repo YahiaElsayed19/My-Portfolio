@@ -42,7 +42,7 @@ const Landing = (props) => {
                             variants={variants}
                             initial="hidden"
                             animate="visible"
-                            className={classes['landing-btn']}>
+                            className={`${classes['landing-btn']} ${classes['resume-btn']}`}>
                             My resume
                         </motion.button>
                     </a>

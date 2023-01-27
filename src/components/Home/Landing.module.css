@@ -104,8 +104,16 @@
     color: white;
     background-image: var(--brand-gradient);
     cursor: pointer;
+    font-weight: bold;
 }
 
+.resume-btn {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid var(--accent);
+}
 @media (max-width: 768px) {
     .landing-btns {
         flex-direction: column;
