@@ -64,14 +64,6 @@ const BOXES = [
         live: "https://yahiaelsayed19.github.io/To-do-List/",
     },
     {
-        id: "p7",
-        name: "Complete expanse tracker app",
-        tools: ["React.js", "CSS"],
-        image: expensetracker,
-        github: "https://github.com/YahiaElsayed19/expense",
-        live: "https://expense-tracker.yahia.vercel.app/",
-    },
-    {
         id: "p8",
         name: "Complete food order app",
         tools: ["React.js", "CSS"],
@@ -88,6 +80,14 @@ const BOXES = [
         live: "https://mtdb.vercel.app/",
     },
 ];
+// {
+//     id: "p7",
+//     name: "Complete expanse tracker app",
+//     tools: ["React.js", "CSS"],
+//     image: expensetracker,
+//     github: "https://github.com/YahiaElsayed19/expense",
+//     live: "https://expense-tracker.yahia.vercel.app/",
+// },
 
 const MyWork = forwardRef((props, ref) => {
     const darkCtx = useContext(darkContext)
