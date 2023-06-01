@@ -25,7 +25,7 @@ const Intro = () => {
                 </p>
                 <p className={classes["intro-p"]}>
                     Currently I help businesses all around the world by designing and
-                    coding websites and currently learning mobile development.
+                    coding Websites and Mobile applications.
                 </p>
                 <img src={me} alt="Myself" className={classes["intro-image"]} />
             </div>
