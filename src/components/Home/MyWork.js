@@ -97,12 +97,14 @@ const MyWork = forwardRef((props, ref) => {
     }
     const variants = {
         hidden: {
-            x: 1000,
+            opacity: 0,
+            y: 100,
         },
         visible: {
-            x: 0,
+            opacity: 1,
+            y: 0,
             transition: {
-                duration: 0.3
+                duration: 0.5
             },
         }
     }
