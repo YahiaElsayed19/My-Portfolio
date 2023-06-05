@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import NoMatch from './components/NotFound/NoMatch';
 import DarkProvider from '../src/store/DarkProvider'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
         <Footer />
     </DarkProvider>

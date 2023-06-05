@@ -1,0 +1,12 @@
+.no-match{
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    height: calc(100vh - 97px - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-match p{
+    color: var(--accent);
+}
